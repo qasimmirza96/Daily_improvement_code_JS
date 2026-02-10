@@ -34,6 +34,11 @@ The interactive setup will ask for:
 node daily-automation.js
 ```
 
+Or use the git alias:
+```bash
+git today
+```
+
 ## How it works
 
 The automation script creates 10 files with unique timestamps:
@@ -74,6 +79,13 @@ See [SETUP.md](SETUP.md) for detailed setup instructions.
 **From project directory:**
 ```bash
 node daily-automation.js
+```
+
+**Using git alias (from anywhere):**
+```bash
+git today          # Creates 50 commits (default)
+git today 10       # Creates 10 commits
+git today 100      # Creates 100 commits
 ```
 
 **From anywhere (Windows):**

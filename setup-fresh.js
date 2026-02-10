@@ -141,6 +141,16 @@ async function setup() {
     log(`✅ Created batch file at: ${batchPath}`, 'green');
   }
   
+  // Setup git alias
+  try {
+    const scriptPath = path.join(repoPath, 'daily-automation.js');
+    const aliasCommand = `!node "${scriptPath}"`;
+    execSync(`git config --global alias.today "${aliasCommand}"`);
+    log('✅ Created git alias: git today', 'green');
+  } catch (error) {
+    log('⚠️  Could not create git alias. Run: node setup-git-alias.js', 'yellow');
+  }
+  
   log('\n🎉 Setup Complete!\n', 'bright');
   log('📋 What happened:', 'cyan');
   log('✅ Removed old commit history', 'green');
@@ -149,9 +159,10 @@ async function setup() {
   log('✅ Made initial commit', 'green');
   log('\n📋 Next Steps:', 'cyan');
   log('1. Run the automation: node daily-automation.js', 'reset');
-  log('2. Check YOUR GitHub repository for the commits', 'reset');
+  log('2. Or use the git alias: git today', 'reset');
+  log('3. Check YOUR GitHub repository for the commits', 'reset');
   if (process.platform === 'win32') {
-    log(`3. Run from anywhere: ${path.join(require('os').homedir(), 'run-daily-js.bat')}`, 'reset');
+    log(`4. Run from anywhere: ${path.join(require('os').homedir(), 'run-daily-js.bat')}`, 'reset');
   }
   log('\n💡 Tip: The automation creates commits with JavaScript learning topics in YOUR name.\n', 'yellow');
   
