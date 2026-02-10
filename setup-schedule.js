@@ -128,11 +128,11 @@ node daily-automation.js >> daily-log.txt 2>&1`;
   log('✅ Pushes to your GitHub repository', 'green');
   log('✅ Logs saved to daily-log.txt', 'green');
   
-  log('\n💡 Useful commands:', 'yellow');
+  log('\n💡 Useful commands (use Windows CMD, not Git Bash):', 'yellow');
   log('View scheduled tasks: schtasks /Query /TN DailyJSLearning /V', 'blue');
   log('Run task now: schtasks /Run /TN DailyJSLearning', 'blue');
   log('Delete task: schtasks /Delete /TN DailyJSLearning /F', 'blue');
-  log('View logs: type daily-log.txt', 'blue');
+  log('View logs: cat daily-log.txt (Git Bash) or type daily-log.txt (CMD)', 'blue');
   
   log('\n👋 Setup complete! Your daily commits will run automatically.\n', 'cyan');
 }
