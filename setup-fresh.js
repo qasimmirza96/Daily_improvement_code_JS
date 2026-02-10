@@ -151,6 +151,14 @@ async function setup() {
     log('⚠️  Could not create git alias. Run: node setup-git-alias.js', 'yellow');
   }
   
+  // Ask about daily scheduling
+  const setupSchedule = await question(`${colors.blue}\nWould you like to set up automatic daily runs? (y/n): ${colors.reset}`);
+  if (setupSchedule.toLowerCase() === 'y') {
+    rl.close();
+    require('./setup-schedule.js');
+    return;
+  }
+  
   log('\n🎉 Setup Complete!\n', 'bright');
   log('📋 What happened:', 'cyan');
   log('✅ Removed old commit history', 'green');

@@ -104,6 +104,16 @@ async function setup() {
     log('⚠️  Could not create git alias. Run: node setup-git-alias.js', 'yellow');
   }
   
+  // Ask about daily scheduling
+  const setupSchedule = await question(`${colors.blue}\nWould you like to set up automatic daily runs? (y/n): ${colors.reset}`);
+  if (setupSchedule.toLowerCase() === 'y') {
+    try {
+      require('./setup-schedule.js');
+    } catch (error) {
+      log('⚠️  Could not set up schedule. Run: node setup-schedule.js', 'yellow');
+    }
+  }
+  
   log('\n🎉 Setup Complete!\n', 'bright');
   log('📋 Next Steps:', 'cyan');
   log('1. Run the automation: node daily-automation.js', 'reset');

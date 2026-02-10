@@ -20,7 +20,10 @@ cd Daily_improvement_code_JS
 node setup-dev.js
 ```
 
-This will configure the automation to push to YOUR GitHub repo, but keeps the original commit history.
+This will:
+- Configure the automation to push to YOUR GitHub repo
+- Set up git alias (`git today`)
+- Ask if you want automatic daily runs
 
 ---
 
@@ -45,9 +48,20 @@ The script will:
 - Initialize a fresh Git repository in YOUR name
 - Connect to YOUR GitHub repository
 - Create an initial commit
+- Set up git alias
+- Ask if you want automatic daily runs
 - All future commits will be in YOUR name
 
-That's it! The script will configure everything automatically.
+---
+
+### Option 3: Manual Schedule Setup (If you skipped it)
+
+If you want to add automatic daily runs later:
+```bash
+node setup-schedule.js
+```
+
+This creates a Windows Task Scheduler task that runs daily at 9:00 AM.
 
 ### 3. Run the Automation
 ```bash

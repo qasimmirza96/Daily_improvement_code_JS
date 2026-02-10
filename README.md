@@ -28,6 +28,7 @@ The interactive setup will ask for:
 - Your GitHub repository URL
 - Local repository path
 - Git username and email
+- Whether to set up automatic daily runs
 
 ### 3. Run the automation
 ```bash
@@ -38,6 +39,8 @@ Or use the git alias:
 ```bash
 git today
 ```
+
+Or let it run automatically every day at 9 AM!
 
 ## How it works
 
