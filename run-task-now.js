@@ -13,13 +13,12 @@ function log(message, color = 'reset') {
   console.log(`${colors[color]}${message}${colors.reset}`);
 }
 
-log('\n🚀 Running scheduled task now...\n', 'cyan');
+log('\n🚀 Running daily automation directly...\n', 'cyan');
 
 try {
-  execSync('schtasks /Run /TN DailyJSLearning', { stdio: 'inherit' });
-  log('\n✅ Task started successfully!', 'green');
-  log('💡 Check daily-log.txt for output: node check-status.js\n', 'yellow');
+  // Run the automation script directly
+  require('./daily-automation.js');
 } catch (error) {
-  log('\n❌ Failed to run task', 'red');
-  log('Make sure the task is set up: node setup-schedule.js\n', 'yellow');
+  log('\n❌ Failed to run automation: ' + error.message, 'red');
+  process.exit(1);
 }
