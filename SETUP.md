@@ -7,6 +7,8 @@
 
 ## Quick Setup (Recommended)
 
+### Option 1: Keep Existing History (Use existing repo)
+
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/qasimmirza96/Daily_improvement_code_JS.git
@@ -18,10 +20,32 @@ cd Daily_improvement_code_JS
 node setup-dev.js
 ```
 
-The script will ask you:
-- Your GitHub repository URL
-- Local path for the repository
-- Your Git username and email
+This will configure the automation to push to YOUR GitHub repo, but keeps the original commit history.
+
+---
+
+### Option 2: Fresh Start (Recommended for new devs)
+
+### 1. Download or Clone the Repository
+```bash
+git clone https://github.com/qasimmirza96/Daily_improvement_code_JS.git
+cd Daily_improvement_code_JS
+```
+
+### 2. Create a NEW empty repository on GitHub
+Go to GitHub and create a new empty repository (don't initialize with README)
+
+### 3. Run the Fresh Setup Script
+```bash
+node setup-fresh.js
+```
+
+The script will:
+- Remove all old commit history
+- Initialize a fresh Git repository in YOUR name
+- Connect to YOUR GitHub repository
+- Create an initial commit
+- All future commits will be in YOUR name
 
 That's it! The script will configure everything automatically.
 
