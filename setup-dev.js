@@ -3,6 +3,18 @@ const readline = require('readline');
 const { execSync } = require('child_process');
 const path = require('path');
 
+// ANSI color codes
+const colors = {
+  reset: '\x1b[0m',
+  bright: '\x1b[1m',
+  green: '\x1b[32m',
+  blue: '\x1b[34m',
+  yellow: '\x1b[33m',
+  cyan: '\x1b[36m',
+  magenta: '\x1b[35m',
+  red: '\x1b[31m'
+};
+
 const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout
@@ -12,31 +24,35 @@ function question(query) {
   return new Promise(resolve => rl.question(query, resolve));
 }
 
+function log(message, color = 'reset') {
+  console.log(`${colors[color]}${message}${colors.reset}`);
+}
+
 async function setup() {
-  console.log('\n🚀 Welcome to Daily JS Learning Automation Setup!\n');
-  console.log('This script will configure the automation for your repository.\n');
+  log('\n🚀 Welcome to Daily JS Learning Automation Setup!\n', 'bright');
+  log('This script will configure the automation for your repository.\n', 'cyan');
   
   // Get GitHub repository URL
-  const repoUrl = await question('📦 Enter your GitHub repository URL (e.g., https://github.com/username/repo.git): ');
+  const repoUrl = await question(`${colors.blue}📦 Enter your GitHub repository URL (e.g., https://github.com/username/repo.git): ${colors.reset}`);
   
   // Get local path
   const currentPath = process.cwd();
-  console.log(`\n📁 Current directory: ${currentPath}`);
-  const useCurrentPath = await question('Use this directory? (y/n): ');
+  log(`\n📁 Current directory: ${currentPath}`, 'yellow');
+  const useCurrentPath = await question(`${colors.blue}Use this directory? (y/n): ${colors.reset}`);
   
   let repoPath;
   if (useCurrentPath.toLowerCase() === 'y') {
     repoPath = currentPath;
   } else {
-    repoPath = await question('Enter the full path where you want to store the repository: ');
+    repoPath = await question(`${colors.blue}Enter the full path where you want to store the repository: ${colors.reset}`);
   }
   
   // Get Git user info
-  console.log('\n👤 Git Configuration:');
-  const gitName = await question('Enter your Git username: ');
-  const gitEmail = await question('Enter your Git email: ');
+  log('\n👤 Git Configuration:', 'magenta');
+  const gitName = await question(`${colors.blue}Enter your Git username: ${colors.reset}`);
+  const gitEmail = await question(`${colors.blue}Enter your Git email: ${colors.reset}`);
   
-  console.log('\n⚙️  Setting up your automation...\n');
+  log('\n⚙️  Setting up your automation...\n', 'cyan');
   
   // Update daily-automation.js
   const automationPath = path.join(repoPath, 'daily-automation.js');
@@ -46,27 +62,27 @@ async function setup() {
     `const repoPath = '${repoPath.replace(/\\/g, '\\\\')}';`
   );
   fs.writeFileSync(automationPath, automationContent);
-  console.log('✅ Updated daily-automation.js with your path');
+  log('✅ Updated daily-automation.js with your path', 'green');
   
   // Configure Git
   try {
     execSync(`git config user.name "${gitName}"`, { cwd: repoPath });
     execSync(`git config user.email "${gitEmail}"`, { cwd: repoPath });
-    console.log('✅ Configured Git user information');
+    log('✅ Configured Git user information', 'green');
   } catch (error) {
-    console.log('⚠️  Git configuration skipped (may already be set globally)');
+    log('⚠️  Git configuration skipped (may already be set globally)', 'yellow');
   }
   
   // Set remote URL
   try {
     execSync(`git remote set-url origin ${repoUrl}`, { cwd: repoPath });
-    console.log('✅ Updated Git remote URL');
+    log('✅ Updated Git remote URL', 'green');
   } catch (error) {
     try {
       execSync(`git remote add origin ${repoUrl}`, { cwd: repoPath });
-      console.log('✅ Added Git remote URL');
+      log('✅ Added Git remote URL', 'green');
     } catch (err) {
-      console.log('⚠️  Could not set remote URL. You may need to do this manually.');
+      log('⚠️  Could not set remote URL. You may need to do this manually.', 'yellow');
     }
   }
   
@@ -75,31 +91,31 @@ async function setup() {
     const batchPath = path.join(require('os').homedir(), 'run-daily-js.bat');
     const batchContent = `@echo off\ncd /d "${repoPath}"\nnode daily-automation.js\npause`;
     fs.writeFileSync(batchPath, batchContent);
-    console.log(`✅ Created batch file at: ${batchPath}`);
+    log(`✅ Created batch file at: ${batchPath}`, 'green');
   }
   
-  console.log('\n🎉 Setup Complete!\n');
-  console.log('📋 Next Steps:');
-  console.log('1. Run the automation: node daily-automation.js');
-  console.log('2. Check your GitHub repository for the commits');
+  log('\n🎉 Setup Complete!\n', 'bright');
+  log('📋 Next Steps:', 'cyan');
+  log('1. Run the automation: node daily-automation.js', 'reset');
+  log('2. Check your GitHub repository for the commits', 'reset');
   if (process.platform === 'win32') {
-    console.log(`3. Run from anywhere: ${path.join(require('os').homedir(), 'run-daily-js.bat')}`);
+    log(`3. Run from anywhere: ${path.join(require('os').homedir(), 'run-daily-js.bat')}`, 'reset');
   }
-  console.log('\n💡 Tip: The automation creates 10 commits with JavaScript learning topics.\n');
+  log('\n💡 Tip: The automation creates 10 commits with JavaScript learning topics.\n', 'yellow');
   
-  const runNow = await question('Would you like to run the automation now? (y/n): ');
+  const runNow = await question(`${colors.blue}Would you like to run the automation now? (y/n): ${colors.reset}`);
   if (runNow.toLowerCase() === 'y') {
-    console.log('\n🚀 Running automation...\n');
+    log('\n🚀 Running automation...\n', 'green');
     rl.close();
     require('./daily-automation.js');
   } else {
-    console.log('\n👋 Setup complete! Run "node daily-automation.js" when ready.\n');
+    log('\n👋 Setup complete! Run "node daily-automation.js" when ready.\n', 'cyan');
     rl.close();
   }
 }
 
 setup().catch(error => {
-  console.error('❌ Setup failed:', error.message);
+  log('❌ Setup failed: ' + error.message, 'red');
   rl.close();
   process.exit(1);
 });
