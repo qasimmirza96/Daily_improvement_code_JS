@@ -46,6 +46,9 @@ async function setup() {
   log('\n📦 First, create a NEW empty repository on GitHub.', 'cyan');
   const repoUrl = await question(`${colors.blue}Enter your NEW GitHub repository URL (e.g., https://github.com/username/my-daily-js.git): ${colors.reset}`);
   
+  const isNewRepo = await question(`${colors.yellow}Is this a brand new empty repository? (y/n): ${colors.reset}`);
+  const forceWithLease = isNewRepo.toLowerCase() === 'y';
+  
   // Get local path
   const currentPath = process.cwd();
   log(`\n📁 Current directory: ${currentPath}`, 'yellow');
@@ -127,10 +130,28 @@ async function setup() {
   try {
     log('\n📤 Pushing to GitHub...', 'cyan');
     execSync('git branch -M main', { cwd: repoPath });
-    execSync('git push -u origin main', { cwd: repoPath });
-    log('✅ Pushed to GitHub', 'green');
+    
+    if (forceWithLease) {
+      // For new empty repos, use force push
+      try {
+        execSync('git push -u origin main --force', { cwd: repoPath, stdio: 'inherit' });
+        log('✅ Pushed to GitHub', 'green');
+      } catch (error) {
+        log('⚠️  Could not push to GitHub. You may need to authenticate first.', 'yellow');
+        log('Run this command manually: git push -u origin main --force', 'blue');
+      }
+    } else {
+      // For existing repos, use normal push
+      try {
+        execSync('git push -u origin main', { cwd: repoPath, stdio: 'inherit' });
+        log('✅ Pushed to GitHub', 'green');
+      } catch (error) {
+        log('⚠️  Could not push to GitHub. You may need to do this manually: git push -u origin main', 'yellow');
+      }
+    }
   } catch (error) {
-    log('⚠️  Could not push to GitHub. You may need to do this manually: git push -u origin main', 'yellow');
+    log('⚠️  Could not push to GitHub. You may need to authenticate first.', 'yellow');
+    log('Run this command manually: cd ' + repoPath + ' && git push -u origin main' + (forceWithLease ? ' --force' : ''), 'blue');
   }
   
   // Create batch file for Windows
