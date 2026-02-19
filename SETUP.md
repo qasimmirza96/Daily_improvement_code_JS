@@ -68,6 +68,18 @@ This creates a Windows Task Scheduler task that runs daily at 9:00 AM.
 node daily-automation.js
 ```
 
+### 4. Generate a 30-Day Activity Plan (PRs + issues + reviews)
+```bash
+# Generate plan file
+node activity-plan.js
+
+# Generate today's task file
+node activity-plan.js --today
+
+# (Windows) Schedule daily reminder at 8:30 AM
+node activity-plan.js --schedule --time 08:30
+```
+
 ---
 
 ## Manual Setup (Alternative)
@@ -90,7 +102,7 @@ Run from the project directory:
 node daily-automation.js
 ```
 
-This will create 10 files, make 10 commits, and push them to your repository.
+This will append 10 comment entries to `daily-log.txt`, make 10 commits, and push them to your repository.
 
 ### 4. (Optional) Create Global Command
 
@@ -143,17 +155,17 @@ To manually trigger:
 
 ## What the Automation Does
 
-- Creates 10 JavaScript learning files with unique timestamps
-- Each file contains a different JavaScript concept
+- Appends 10 JavaScript learning comment entries to `daily-log.txt`
+- Each entry contains a different JavaScript concept and timestamp
 - Makes 10 separate commits with descriptive messages
 - Pushes each commit to GitHub
 - Displays detailed progress logs in terminal
 
-## File Naming Convention
+## History Entry Format
 ```
-dayYYYYMMDD_#_HHMMSS.js
+// <topic> | <ISO timestamp>
 ```
-Example: `day20251231_1_172429.js`
+Example: `// Event Loop: Handles async operations in JavaScript | 2026-02-19T19:35:04.123Z`
 
 ## Customization
 

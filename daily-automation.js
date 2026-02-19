@@ -123,6 +123,7 @@ const allTopicNames = [
 ];
 
 const DEFAULT_COMMIT_COUNT = 50;
+const HISTORY_FILE = 'daily-log.txt';
 
 function getVersions() {
   try {
@@ -135,7 +136,7 @@ function getVersions() {
   }
 }
 
-function createDailyFiles() {
+function createDailyHistoryComments() {
   const { nodeVersion, npmVersion, gitVersion } = getVersions();
   
   console.log(`${colors.cyan}\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${colors.reset}`);
@@ -155,24 +156,31 @@ function createDailyFiles() {
   
   console.log(`${colors.yellow}📅 Date: ${date}${colors.reset}`);
   console.log(`${colors.yellow}📁 Repository: ${repoPath}${colors.reset}`);
+  console.log(`${colors.yellow}📝 History file: ${HISTORY_FILE}${colors.reset}`);
   console.log(`${colors.yellow}📊 Commits to create: ${commitCount}${colors.reset}\n`);
+
+  if (!fs.existsSync(HISTORY_FILE)) {
+    throw new Error(
+      `${HISTORY_FILE} not found. This automation is configured to avoid creating new files.`
+    );
+  }
   
   for (let i = 0; i < commitCount; i++) {
     const topicIndex = i % allTopics.length;
     const topicLine = `// ${allTopics[topicIndex]}`;
     const topicName = allTopicNames[topicIndex];
-    const time = new Date(baseTime.getTime() + i * 1000).toTimeString().slice(0, 8).replace(/:/g, '');
-    const filename = `day${date}_${i + 1}_${time}.js`;
-    
-    // Create file with topic
-    fs.writeFileSync(filename, topicLine);
-    
+    const timestamp = new Date(baseTime.getTime() + i * 1000).toISOString();
+    const historyEntry = `${topicLine} | ${timestamp}\n`;
+
+    // Append a comment entry to one existing file to build commit history
+    fs.appendFileSync(HISTORY_FILE, historyEntry, 'utf8');
+
     // Git operations
-    execSync(`git add ${filename}`);
+    execSync(`git add "${HISTORY_FILE}"`);
     const commitMsg = `Add ${topicName} - Daily JS Learning Day ${date} Topic ${i + 1}`;
     execSync(`git commit -m "${commitMsg}"`);
     
-    console.log(`${colors.green}✅ Commit ${i + 1}/${commitCount}: ${filename}${colors.reset}`);
+    console.log(`${colors.green}✅ Commit ${i + 1}/${commitCount}: updated ${HISTORY_FILE}${colors.reset}`);
     console.log(`${colors.blue}   📝 Topic: ${topicName}${colors.reset}`);
     console.log(`${colors.cyan}   💬 Message: ${commitMsg}${colors.reset}`);
     
@@ -191,9 +199,9 @@ function createDailyFiles() {
   
   console.log(`${colors.cyan}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${colors.reset}`);
   console.log(`${colors.green}🎉 Successfully created and pushed ${commitCount} commits!${colors.reset}`);
-  console.log(`${colors.green}📊 Total files created: ${commitCount}${colors.reset}`);
+  console.log(`${colors.green}📊 Total history entries added: ${commitCount}${colors.reset}`);
   console.log(`${colors.green}📤 Total commits pushed: ${commitCount}${colors.reset}`);
   console.log(`${colors.cyan}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${colors.reset}\n`);
 }
 
-createDailyFiles();
+createDailyHistoryComments();

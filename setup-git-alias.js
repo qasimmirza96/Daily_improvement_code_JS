@@ -31,7 +31,8 @@ function setupGitAlias() {
   
   try {
     // Create git alias that runs the node script
-    const aliasCommand = `!node "${scriptPath}"`;
+    const normalizedScriptPath = scriptPath.replace(/\\/g, '/');
+    const aliasCommand = `!node "${normalizedScriptPath}"`;
     execSync(`git config --global alias.today "${aliasCommand}"`);
     
     log('✅ Git alias created successfully!', 'green');
@@ -44,7 +45,7 @@ function setupGitAlias() {
   } catch (error) {
     log('❌ Failed to create Git alias: ' + error.message, 'red');
     log('\nYou can manually add the alias by running:', 'yellow');
-    log(`git config --global alias.today "!node \\"${scriptPath}\\""`, 'blue');
+    log(`git config --global alias.today "!node \\"${scriptPath.replace(/\\/g, '/')}\\""`, 'blue');
     process.exit(1);
   }
 }

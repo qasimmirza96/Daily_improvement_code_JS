@@ -164,7 +164,7 @@ async function setup() {
   
   // Setup git alias
   try {
-    const scriptPath = path.join(repoPath, 'daily-automation.js');
+    const scriptPath = path.join(repoPath, 'daily-automation.js').replace(/\\/g, '/');
     const aliasCommand = `!node "${scriptPath}"`;
     execSync(`git config --global alias.today "${aliasCommand}"`);
     log('✅ Created git alias: git today', 'green');
@@ -178,6 +178,25 @@ async function setup() {
     rl.close();
     require('./setup-schedule.js');
     return;
+  }
+
+  // Ask about activity planner setup
+  const setupActivityPlan = await question(`${colors.blue}Would you like to set up the 30-day activity planner too? (y/n): ${colors.reset}`);
+  if (setupActivityPlan.toLowerCase() === 'y') {
+    try {
+      execSync('node activity-plan.js --today', { cwd: repoPath, stdio: 'inherit' });
+      log('✅ Generated 30-day activity plan and today task', 'green');
+
+      if (process.platform === 'win32') {
+        const schedulePlanner = await question(`${colors.blue}Schedule daily activity-plan reminder at 08:30 AM? (y/n): ${colors.reset}`);
+        if (schedulePlanner.toLowerCase() === 'y') {
+          execSync('node activity-plan.js --schedule --time 08:30', { cwd: repoPath, stdio: 'inherit' });
+          log('✅ Scheduled daily activity planner reminder', 'green');
+        }
+      }
+    } catch (error) {
+      log('⚠️  Could not set up activity planner automatically. Run: node activity-plan.js --today', 'yellow');
+    }
   }
   
   log('\n🎉 Setup Complete!\n', 'bright');
