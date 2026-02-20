@@ -109,3 +109,4 @@ To https://github.com/qasimmirza96/Daily_improvement_code_JS.git
 // Reflect API: Built-in object for interceptable operations | 2026-02-20T20:24:01.704Z
 // WeakMap and WeakSet: Garbage-collectable collections | 2026-02-20T20:24:02.704Z
 // Array Methods: map, filter, reduce, forEach | 2026-02-20T20:24:03.704Z
+// String Methods: split, slice, substring, includes | 2026-02-20T20:24:04.704Z
