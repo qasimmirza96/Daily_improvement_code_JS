@@ -131,3 +131,4 @@ To https://github.com/qasimmirza96/Daily_improvement_code_JS.git
 // XMLHttpRequest: Traditional AJAX method | 2026-02-20T20:24:23.704Z
 // JSON: JavaScript Object Notation | 2026-02-20T20:24:24.704Z
 // Regular Expressions: Pattern matching in strings | 2026-02-20T20:24:25.704Z
+// Date Object: Working with dates and times | 2026-02-20T20:24:26.704Z
