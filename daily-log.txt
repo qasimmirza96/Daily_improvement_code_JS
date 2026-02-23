@@ -186,3 +186,4 @@ To https://github.com/qasimmirza96/Daily_improvement_code_JS.git
 // Type Coercion: Implicit type conversion | 2026-02-23T06:27:23.880Z
 // Truthy and Falsy: Boolean evaluation | 2026-02-23T06:27:24.880Z
 // Nullish Coalescing: ?? operator | 2026-02-23T06:27:25.880Z
+// Optional Chaining: ?. operator | 2026-02-23T06:27:26.880Z
