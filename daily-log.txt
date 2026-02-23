@@ -142,3 +142,4 @@ To https://github.com/qasimmirza96/Daily_improvement_code_JS.git
 // Ternary Operator: Conditional expression | 2026-02-20T20:24:34.704Z
 // Hoisting: var declarations are moved to top of scope | 2026-02-23T06:26:40.880Z
 // Event Loop: Handles async operations in JavaScript | 2026-02-23T06:26:41.880Z
+// Closures: Inner functions access outer function variables | 2026-02-23T06:26:42.880Z
