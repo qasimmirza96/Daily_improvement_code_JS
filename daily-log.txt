@@ -188,3 +188,4 @@ To https://github.com/qasimmirza96/Daily_improvement_code_JS.git
 // Nullish Coalescing: ?? operator | 2026-02-23T06:27:25.880Z
 // Optional Chaining: ?. operator | 2026-02-23T06:27:26.880Z
 // Rest Parameters: Collecting function arguments | 2026-02-23T06:27:27.880Z
+// Default Parameters: Function parameter defaults | 2026-02-23T06:27:28.880Z
