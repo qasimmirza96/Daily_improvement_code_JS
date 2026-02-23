@@ -173,3 +173,4 @@ To https://github.com/qasimmirza96/Daily_improvement_code_JS.git
 // Debouncing: Limiting function execution rate | 2026-02-23T06:27:10.880Z
 // Throttling: Controlling function execution frequency | 2026-02-23T06:27:11.880Z
 // Event Delegation: Handling events on parent elements | 2026-02-23T06:27:12.880Z
+// DOM Manipulation: Modifying HTML structure | 2026-02-23T06:27:13.880Z
