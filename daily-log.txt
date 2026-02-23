@@ -140,3 +140,4 @@ To https://github.com/qasimmirza96/Daily_improvement_code_JS.git
 // Rest Parameters: Collecting function arguments | 2026-02-20T20:24:32.704Z
 // Default Parameters: Function parameter defaults | 2026-02-20T20:24:33.704Z
 // Ternary Operator: Conditional expression | 2026-02-20T20:24:34.704Z
+// Hoisting: var declarations are moved to top of scope | 2026-02-23T06:26:40.880Z
