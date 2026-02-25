@@ -191,3 +191,4 @@ To https://github.com/qasimmirza96/Daily_improvement_code_JS.git
 // Default Parameters: Function parameter defaults | 2026-02-23T06:27:28.880Z
 // Ternary Operator: Conditional expression | 2026-02-23T06:27:29.880Z
 // Hoisting: var declarations are moved to top of scope | 2026-02-24T13:46:58.547Z
+// Hoisting: var declarations are moved to top of scope | 2026-02-25T13:40:50.342Z
