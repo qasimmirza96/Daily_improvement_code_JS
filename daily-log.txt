@@ -200,3 +200,4 @@ To https://github.com/qasimmirza96/Daily_improvement_code_JS.git
 // Prototypes: Objects inherit properties from prototype chain | 2026-02-25T14:41:05.121Z
 // Promises: Handle asynchronous operations with .then() | 2026-02-25T14:41:06.121Z
 // Arrow Functions: Shorter syntax, lexical this binding | 2026-02-25T14:41:07.121Z
+// Destructuring: Extract values from arrays/objects easily | 2026-02-25T14:41:08.121Z
