@@ -215,3 +215,4 @@ To https://github.com/qasimmirza96/Daily_improvement_code_JS.git
 // Array Methods: map, filter, reduce, forEach | 2026-02-25T14:41:20.121Z
 // String Methods: split, slice, substring, includes | 2026-02-25T14:41:21.121Z
 // Object Methods: assign, keys, values, entries | 2026-02-25T14:41:22.121Z
+// Error Handling: try, catch, finally blocks | 2026-02-25T14:41:23.121Z
