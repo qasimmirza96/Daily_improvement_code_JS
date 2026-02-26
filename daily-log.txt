@@ -262,3 +262,4 @@ To https://github.com/qasimmirza96/Daily_improvement_code_JS.git
 // Proxy: Intercept and customize object operations | 2026-02-26T17:20:36.727Z
 // Reflect API: Built-in object for interceptable operations | 2026-02-26T17:20:37.727Z
 // WeakMap and WeakSet: Garbage-collectable collections | 2026-02-26T17:20:38.727Z
+// Array Methods: map, filter, reduce, forEach | 2026-02-26T17:20:39.727Z
