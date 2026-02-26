@@ -286,3 +286,4 @@ To https://github.com/qasimmirza96/Daily_improvement_code_JS.git
 // JSON: JavaScript Object Notation | 2026-02-26T17:21:00.727Z
 // Regular Expressions: Pattern matching in strings | 2026-02-26T17:21:01.727Z
 // Date Object: Working with dates and times | 2026-02-26T17:21:02.727Z
+// Math Object: Mathematical operations | 2026-02-26T17:21:03.727Z
