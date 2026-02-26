@@ -275,3 +275,4 @@ To https://github.com/qasimmirza96/Daily_improvement_code_JS.git
 // Currying: Transforming multi-argument functions | 2026-02-26T17:20:49.727Z
 // Memoization: Caching function results | 2026-02-26T17:20:50.727Z
 // Debouncing: Limiting function execution rate | 2026-02-26T17:20:51.727Z
+// Throttling: Controlling function execution frequency | 2026-02-26T17:20:52.727Z
