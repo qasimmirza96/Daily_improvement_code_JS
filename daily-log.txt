@@ -288,3 +288,4 @@ To https://github.com/qasimmirza96/Daily_improvement_code_JS.git
 // Date Object: Working with dates and times | 2026-02-26T17:21:02.727Z
 // Math Object: Mathematical operations | 2026-02-26T17:21:03.727Z
 // Type Coercion: Implicit type conversion | 2026-02-26T17:21:04.727Z
+// Truthy and Falsy: Boolean evaluation | 2026-02-26T17:21:05.727Z
