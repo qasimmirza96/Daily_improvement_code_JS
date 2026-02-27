@@ -374,3 +374,4 @@ To https://github.com/qasimmirza96/Daily_improvement_code_JS.git
 // Template Literals: Use backticks for string interpolation | 2026-02-27T22:19:26.330Z
 // Spread Operator: ...array expands elements | 2026-02-27T22:19:27.330Z
 // Async/Await: Cleaner syntax for promise-based code | 2026-02-27T22:19:28.330Z
+// Map and Set: New data structures in ES6 | 2026-02-27T22:19:29.330Z
