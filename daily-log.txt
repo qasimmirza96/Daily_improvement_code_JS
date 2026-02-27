@@ -306,3 +306,4 @@ To https://github.com/qasimmirza96/Daily_improvement_code_JS.git
 // Async/Await: Cleaner syntax for promise-based code | 2026-02-27T16:50:54.508Z
 // Map and Set: New data structures in ES6 | 2026-02-27T16:50:55.508Z
 // Modules: Import and export functionality | 2026-02-27T16:50:56.508Z
+// Classes: Syntactic sugar over prototypes | 2026-02-27T16:50:57.508Z
