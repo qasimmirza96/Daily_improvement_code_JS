@@ -347,3 +347,4 @@ To https://github.com/qasimmirza96/Daily_improvement_code_JS.git
 // Hoisting: var declarations are moved to top of scope | 2026-02-27T16:51:35.508Z
 // Event Loop: Handles async operations in JavaScript | 2026-02-27T16:51:36.508Z
 // Closures: Inner functions access outer function variables | 2026-02-27T16:51:37.508Z
+// Prototypes: Objects inherit properties from prototype chain | 2026-02-27T16:51:38.508Z
