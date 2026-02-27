@@ -399,3 +399,4 @@ To https://github.com/qasimmirza96/Daily_improvement_code_JS.git
 // Event Delegation: Handling events on parent elements | 2026-02-27T22:19:51.330Z
 // DOM Manipulation: Modifying HTML structure | 2026-02-27T22:19:52.330Z
 // Local Storage: Browser data persistence | 2026-02-27T22:19:53.330Z
+// Session Storage: Temporary browser storage | 2026-02-27T22:19:54.330Z
