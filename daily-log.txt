@@ -446,3 +446,4 @@ To https://github.com/qasimmirza96/Daily_improvement_code_JS.git
 // Higher Order Functions: Functions that operate on functions | 2026-03-03T22:29:10.675Z
 // Currying: Transforming multi-argument functions | 2026-03-03T22:29:11.675Z
 // Memoization: Caching function results | 2026-03-03T22:29:12.675Z
+// Debouncing: Limiting function execution rate | 2026-03-03T22:29:13.675Z
