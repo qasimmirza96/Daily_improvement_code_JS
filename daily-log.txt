@@ -440,3 +440,4 @@ To https://github.com/qasimmirza96/Daily_improvement_code_JS.git
 // Error Handling: try, catch, finally blocks | 2026-03-03T22:29:04.675Z
 // Strict Mode: Enforces stricter parsing and error handling | 2026-03-03T22:29:05.675Z
 // This Keyword: Context-dependent reference | 2026-03-03T22:29:06.675Z
+// Call, Apply, Bind: Function context manipulation | 2026-03-03T22:29:07.675Z
