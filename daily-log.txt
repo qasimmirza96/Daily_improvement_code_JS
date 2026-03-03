@@ -452,3 +452,4 @@ To https://github.com/qasimmirza96/Daily_improvement_code_JS.git
 // DOM Manipulation: Modifying HTML structure | 2026-03-03T22:29:16.675Z
 // Local Storage: Browser data persistence | 2026-03-03T22:29:17.675Z
 // Session Storage: Temporary browser storage | 2026-03-03T22:29:18.675Z
+// Cookies: Small data stored in browser | 2026-03-03T22:29:19.675Z
