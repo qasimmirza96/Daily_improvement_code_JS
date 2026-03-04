@@ -495,3 +495,4 @@ To https://github.com/qasimmirza96/Daily_improvement_code_JS.git
 // Callback Functions: Functions passed as arguments | 2026-03-04T20:30:57.450Z
 // Higher Order Functions: Functions that operate on functions | 2026-03-04T20:30:58.450Z
 // Currying: Transforming multi-argument functions | 2026-03-04T20:30:59.450Z
+// Memoization: Caching function results | 2026-03-04T20:31:00.450Z
