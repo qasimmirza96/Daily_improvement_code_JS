@@ -533,3 +533,4 @@ To https://github.com/qasimmirza96/Daily_improvement_code_JS.git
 // Symbols: Unique and immutable primitive values | 2026-03-04T20:31:35.450Z
 // Proxy: Intercept and customize object operations | 2026-03-04T20:31:36.450Z
 // Reflect API: Built-in object for interceptable operations | 2026-03-04T20:31:37.450Z
+// WeakMap and WeakSet: Garbage-collectable collections | 2026-03-04T20:31:38.450Z
