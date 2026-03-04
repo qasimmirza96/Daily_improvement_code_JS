@@ -604,3 +604,4 @@ To https://github.com/qasimmirza96/Daily_improvement_code_JS.git
 // Session Storage: Temporary browser storage | 2026-03-04T20:32:46.450Z
 // Cookies: Small data stored in browser | 2026-03-04T20:32:47.450Z
 // Fetch API: Modern way to make HTTP requests | 2026-03-04T20:32:48.450Z
+// XMLHttpRequest: Traditional AJAX method | 2026-03-04T20:32:49.450Z
