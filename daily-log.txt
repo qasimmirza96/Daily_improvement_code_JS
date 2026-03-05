@@ -695,3 +695,4 @@ To https://github.com/qasimmirza96/Daily_improvement_code_JS.git
 // WeakMap and WeakSet: Garbage-collectable collections | 2026-03-05T14:49:34.317Z
 // Array Methods: map, filter, reduce, forEach | 2026-03-05T14:49:35.317Z
 // String Methods: split, slice, substring, includes | 2026-03-05T14:49:36.317Z
+// Object Methods: assign, keys, values, entries | 2026-03-05T14:49:37.317Z
