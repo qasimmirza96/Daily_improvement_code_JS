@@ -688,3 +688,4 @@ To https://github.com/qasimmirza96/Daily_improvement_code_JS.git
 // Map and Set: New data structures in ES6 | 2026-03-05T14:49:27.317Z
 // Modules: Import and export functionality | 2026-03-05T14:49:28.317Z
 // Classes: Syntactic sugar over prototypes | 2026-03-05T14:49:29.317Z
+// Generators: Functions that can pause execution | 2026-03-05T14:49:30.317Z
