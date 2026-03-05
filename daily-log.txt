@@ -672,3 +672,4 @@ To https://github.com/qasimmirza96/Daily_improvement_code_JS.git
 // Truthy and Falsy: Boolean evaluation | 2026-03-05T14:49:11.317Z
 // Nullish Coalescing: ?? operator | 2026-03-05T14:49:12.317Z
 // Optional Chaining: ?. operator | 2026-03-05T14:49:13.317Z
+// Rest Parameters: Collecting function arguments | 2026-03-05T14:49:14.317Z
