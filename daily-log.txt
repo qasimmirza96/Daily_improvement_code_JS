@@ -704,3 +704,4 @@ To https://github.com/qasimmirza96/Daily_improvement_code_JS.git
 // Callback Functions: Functions passed as arguments | 2026-03-05T14:49:43.317Z
 // Higher Order Functions: Functions that operate on functions | 2026-03-05T14:49:44.317Z
 // Hoisting: var declarations are moved to top of scope | 2026-03-06T15:49:06.357Z
+// Event Loop: Handles async operations in JavaScript | 2026-03-06T15:49:07.357Z
