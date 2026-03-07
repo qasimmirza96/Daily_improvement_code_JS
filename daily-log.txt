@@ -725,3 +725,4 @@ To https://github.com/qasimmirza96/Daily_improvement_code_JS.git
 // String Methods: split, slice, substring, includes | 2026-03-06T15:49:25.357Z
 // Object Methods: assign, keys, values, entries | 2026-03-06T15:49:26.357Z
 // Error Handling: try, catch, finally blocks | 2026-03-06T15:49:27.357Z
+// Hoisting: var declarations are moved to top of scope | 2026-03-07T20:39:59.941Z
