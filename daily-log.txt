@@ -735,3 +735,4 @@ To https://github.com/qasimmirza96/Daily_improvement_code_JS.git
 // Template Literals: Use backticks for string interpolation | 2026-03-07T20:40:06.941Z
 // Spread Operator: ...array expands elements | 2026-03-07T20:40:07.941Z
 // Async/Await: Cleaner syntax for promise-based code | 2026-03-07T20:40:08.941Z
+// Hoisting: var declarations are moved to top of scope | 2026-03-09T13:48:00.454Z
