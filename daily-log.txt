@@ -761,3 +761,4 @@ To https://github.com/qasimmirza96/Daily_improvement_code_JS.git
 // Strict Mode: Enforces stricter parsing and error handling | 2026-03-10T11:08:43.124Z
 // This Keyword: Context-dependent reference | 2026-03-10T11:08:44.124Z
 // Call, Apply, Bind: Function context manipulation | 2026-03-10T11:08:45.124Z
+// IIFE: Immediately Invoked Function Expression | 2026-03-10T11:08:46.124Z
