@@ -846,3 +846,4 @@ To https://github.com/qasimmirza96/Daily_improvement_code_JS.git
 // Fetch API: Modern way to make HTTP requests | 2026-03-14T18:47:06.294Z
 // XMLHttpRequest: Traditional AJAX method | 2026-03-14T18:47:07.294Z
 // JSON: JavaScript Object Notation | 2026-03-14T18:47:08.294Z
+// Regular Expressions: Pattern matching in strings | 2026-03-14T18:47:09.294Z
