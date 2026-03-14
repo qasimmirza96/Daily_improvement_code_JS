@@ -855,3 +855,4 @@ To https://github.com/qasimmirza96/Daily_improvement_code_JS.git
 // Optional Chaining: ?. operator | 2026-03-14T18:47:15.294Z
 // Rest Parameters: Collecting function arguments | 2026-03-14T18:47:16.294Z
 // Default Parameters: Function parameter defaults | 2026-03-14T18:47:17.294Z
+// Ternary Operator: Conditional expression | 2026-03-14T18:47:18.294Z
