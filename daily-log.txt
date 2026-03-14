@@ -832,3 +832,4 @@ To https://github.com/qasimmirza96/Daily_improvement_code_JS.git
 // This Keyword: Context-dependent reference | 2026-03-14T18:46:52.294Z
 // Call, Apply, Bind: Function context manipulation | 2026-03-14T18:46:53.294Z
 // IIFE: Immediately Invoked Function Expression | 2026-03-14T18:46:54.294Z
+// Callback Functions: Functions passed as arguments | 2026-03-14T18:46:55.294Z
