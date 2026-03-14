@@ -827,3 +827,4 @@ To https://github.com/qasimmirza96/Daily_improvement_code_JS.git
 // Array Methods: map, filter, reduce, forEach | 2026-03-14T18:46:47.294Z
 // String Methods: split, slice, substring, includes | 2026-03-14T18:46:48.294Z
 // Object Methods: assign, keys, values, entries | 2026-03-14T18:46:49.294Z
+// Error Handling: try, catch, finally blocks | 2026-03-14T18:46:50.294Z
