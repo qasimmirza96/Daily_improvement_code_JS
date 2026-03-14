@@ -806,3 +806,4 @@ To https://github.com/qasimmirza96/Daily_improvement_code_JS.git
 // WeakMap and WeakSet: Garbage-collectable collections | 2026-03-12T21:25:11.717Z
 // Array Methods: map, filter, reduce, forEach | 2026-03-12T21:25:12.717Z
 // String Methods: split, slice, substring, includes | 2026-03-12T21:25:13.717Z
+// Hoisting: var declarations are moved to top of scope | 2026-03-14T18:46:29.294Z
