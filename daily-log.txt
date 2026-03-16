@@ -888,3 +888,4 @@ To https://github.com/qasimmirza96/Daily_improvement_code_JS.git
 // Memoization: Caching function results | 2026-03-16T13:59:12.794Z
 // Debouncing: Limiting function execution rate | 2026-03-16T13:59:13.794Z
 // Throttling: Controlling function execution frequency | 2026-03-16T13:59:14.794Z
+// Event Delegation: Handling events on parent elements | 2026-03-16T13:59:15.794Z
