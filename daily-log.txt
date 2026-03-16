@@ -860,3 +860,4 @@ To https://github.com/qasimmirza96/Daily_improvement_code_JS.git
 // Event Loop: Handles async operations in JavaScript | 2026-03-16T13:58:44.794Z
 // Closures: Inner functions access outer function variables | 2026-03-16T13:58:45.794Z
 // Prototypes: Objects inherit properties from prototype chain | 2026-03-16T13:58:46.794Z
+// Promises: Handle asynchronous operations with .then() | 2026-03-16T13:58:47.794Z
