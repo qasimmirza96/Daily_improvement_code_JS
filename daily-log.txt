@@ -995,3 +995,4 @@ To https://github.com/qasimmirza96/Daily_improvement_code_JS.git
 // Cookies: Small data stored in browser | 2026-03-18T18:50:16.890Z
 // Fetch API: Modern way to make HTTP requests | 2026-03-18T18:50:17.890Z
 // XMLHttpRequest: Traditional AJAX method | 2026-03-18T18:50:18.890Z
+// JSON: JavaScript Object Notation | 2026-03-18T18:50:19.890Z
