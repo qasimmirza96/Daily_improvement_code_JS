@@ -983,3 +983,4 @@ To https://github.com/qasimmirza96/Daily_improvement_code_JS.git
 // Call, Apply, Bind: Function context manipulation | 2026-03-18T18:50:04.890Z
 // IIFE: Immediately Invoked Function Expression | 2026-03-18T18:50:05.890Z
 // Callback Functions: Functions passed as arguments | 2026-03-18T18:50:06.890Z
+// Higher Order Functions: Functions that operate on functions | 2026-03-18T18:50:07.890Z
