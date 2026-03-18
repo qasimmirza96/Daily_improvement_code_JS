@@ -934,3 +934,4 @@ To https://github.com/qasimmirza96/Daily_improvement_code_JS.git
 // IIFE: Immediately Invoked Function Expression | 2026-03-17T23:59:24.487Z
 // Callback Functions: Functions passed as arguments | 2026-03-17T23:59:25.487Z
 // Higher Order Functions: Functions that operate on functions | 2026-03-17T23:59:26.487Z
+// Currying: Transforming multi-argument functions | 2026-03-17T23:59:27.487Z
