@@ -1503,3 +1503,4 @@ Node.js v24.11.1
 // Cookies: Small data stored in browser | 2026-04-08T18:18:01.431Z
 // Fetch API: Modern way to make HTTP requests | 2026-04-08T18:18:02.431Z
 // XMLHttpRequest: Traditional AJAX method | 2026-04-08T18:18:03.431Z
+// JSON: JavaScript Object Notation | 2026-04-08T18:18:04.431Z
