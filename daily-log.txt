@@ -1490,3 +1490,4 @@ Node.js v24.11.1
 // This Keyword: Context-dependent reference | 2026-04-08T18:17:48.431Z
 // Call, Apply, Bind: Function context manipulation | 2026-04-08T18:17:49.431Z
 // IIFE: Immediately Invoked Function Expression | 2026-04-08T18:17:50.431Z
+// Callback Functions: Functions passed as arguments | 2026-04-08T18:17:51.431Z
