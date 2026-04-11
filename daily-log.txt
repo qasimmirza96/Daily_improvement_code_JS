@@ -1706,3 +1706,4 @@ Node.js v24.11.1
 // JSON: JavaScript Object Notation | 2026-04-11T13:37:35.211Z
 // Regular Expressions: Pattern matching in strings | 2026-04-11T13:37:36.211Z
 // Date Object: Working with dates and times | 2026-04-11T13:37:37.211Z
+// Math Object: Mathematical operations | 2026-04-11T13:37:38.211Z
