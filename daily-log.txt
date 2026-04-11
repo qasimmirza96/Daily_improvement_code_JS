@@ -1679,3 +1679,4 @@ Node.js v24.11.1
 // Classes: Syntactic sugar over prototypes | 2026-04-11T13:37:08.211Z
 // Generators: Functions that can pause execution | 2026-04-11T13:37:09.211Z
 // Symbols: Unique and immutable primitive values | 2026-04-11T13:37:10.211Z
+// Proxy: Intercept and customize object operations | 2026-04-11T13:37:11.211Z
