@@ -1664,3 +1664,4 @@ Node.js v24.11.1
 // Rest Parameters: Collecting function arguments | 2026-04-10T11:14:29.556Z
 // Default Parameters: Function parameter defaults | 2026-04-10T11:14:30.556Z
 // Ternary Operator: Conditional expression | 2026-04-10T11:14:31.556Z
+// Hoisting: var declarations are moved to top of scope | 2026-04-11T13:36:56.211Z
