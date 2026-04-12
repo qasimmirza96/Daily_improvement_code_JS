@@ -1715,3 +1715,4 @@ Node.js v24.11.1
 // Default Parameters: Function parameter defaults | 2026-04-11T13:37:44.211Z
 // Ternary Operator: Conditional expression | 2026-04-11T13:37:45.211Z
 // Hoisting: var declarations are moved to top of scope | 2026-04-12T01:28:38.786Z
+// Event Loop: Handles async operations in JavaScript | 2026-04-12T01:28:39.786Z
