@@ -1722,3 +1722,4 @@ Node.js v24.11.1
 // Arrow Functions: Shorter syntax, lexical this binding | 2026-04-12T01:28:43.786Z
 // Destructuring: Extract values from arrays/objects easily | 2026-04-12T01:28:44.786Z
 // Template Literals: Use backticks for string interpolation | 2026-04-12T01:28:45.786Z
+// Spread Operator: ...array expands elements | 2026-04-12T01:28:46.786Z
