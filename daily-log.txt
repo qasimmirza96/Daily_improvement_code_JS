@@ -1774,3 +1774,4 @@ Node.js v24.11.1
 // Event Delegation: Handling events on parent elements | 2026-04-13T19:20:11.711Z
 // DOM Manipulation: Modifying HTML structure | 2026-04-13T19:20:12.711Z
 // Local Storage: Browser data persistence | 2026-04-13T19:20:13.711Z
+// Session Storage: Temporary browser storage | 2026-04-13T19:20:14.711Z
