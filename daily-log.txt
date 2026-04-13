@@ -1739,3 +1739,4 @@ Node.js v24.11.1
 // Strict Mode: Enforces stricter parsing and error handling | 2026-04-12T01:29:00.786Z
 // This Keyword: Context-dependent reference | 2026-04-12T01:29:01.786Z
 // Call, Apply, Bind: Function context manipulation | 2026-04-12T01:29:02.786Z
+// Hoisting: var declarations are moved to top of scope | 2026-04-13T19:19:39.711Z
