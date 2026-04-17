@@ -1880,3 +1880,4 @@ Node.js v24.11.1
 // Destructuring: Extract values from arrays/objects easily | 2026-04-17T16:54:59.245Z
 // Template Literals: Use backticks for string interpolation | 2026-04-17T16:55:00.245Z
 // Spread Operator: ...array expands elements | 2026-04-17T16:55:01.245Z
+// Async/Await: Cleaner syntax for promise-based code | 2026-04-17T16:55:02.245Z
