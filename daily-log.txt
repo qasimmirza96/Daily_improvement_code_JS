@@ -1914,3 +1914,4 @@ Node.js v24.11.1
 // Regular Expressions: Pattern matching in strings | 2026-04-17T16:55:33.245Z
 // Date Object: Working with dates and times | 2026-04-17T16:55:34.245Z
 // Math Object: Mathematical operations | 2026-04-17T16:55:35.245Z
+// Type Coercion: Implicit type conversion | 2026-04-17T16:55:36.245Z
