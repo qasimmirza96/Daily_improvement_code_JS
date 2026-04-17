@@ -1873,3 +1873,4 @@ Error: EBUSY: resource busy or locked, open 'c:\Users\User\Desktop\Daily_improve
 Node.js v24.11.1
 // Hoisting: var declarations are moved to top of scope | 2026-04-17T16:54:53.245Z
 // Event Loop: Handles async operations in JavaScript | 2026-04-17T16:54:54.245Z
+// Closures: Inner functions access outer function variables | 2026-04-17T16:54:55.245Z
