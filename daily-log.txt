@@ -2074,3 +2074,4 @@ Node.js v24.11.1
 // Currying: Transforming multi-argument functions | 2026-04-19T07:05:43.681Z
 // Memoization: Caching function results | 2026-04-19T07:05:44.681Z
 // Debouncing: Limiting function execution rate | 2026-04-19T07:05:45.681Z
+// Throttling: Controlling function execution frequency | 2026-04-19T07:05:46.681Z
