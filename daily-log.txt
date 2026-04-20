@@ -2140,3 +2140,4 @@ Node.js v24.11.1
 // Truthy and Falsy: Boolean evaluation | 2026-04-20T03:17:18.976Z
 // Nullish Coalescing: ?? operator | 2026-04-20T03:17:19.976Z
 // Optional Chaining: ?. operator | 2026-04-20T03:17:20.976Z
+// Rest Parameters: Collecting function arguments | 2026-04-20T03:17:21.976Z
