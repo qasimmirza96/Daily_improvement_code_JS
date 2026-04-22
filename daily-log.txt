@@ -2190,3 +2190,4 @@ Node.js v24.11.1
 // Spread Operator: ...array expands elements | 2026-04-21T11:57:27.948Z
 // Async/Await: Cleaner syntax for promise-based code | 2026-04-21T11:57:28.948Z
 // Hoisting: var declarations are moved to top of scope | 2026-04-22T15:07:58.437Z
+// Event Loop: Handles async operations in JavaScript | 2026-04-22T15:07:59.437Z
