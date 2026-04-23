@@ -2241,3 +2241,4 @@ Node.js v24.11.1
 // Ternary Operator: Conditional expression | 2026-04-22T15:08:47.437Z
 // Hoisting: var declarations are moved to top of scope | 2026-04-23T14:43:28.174Z
 // Event Loop: Handles async operations in JavaScript | 2026-04-23T14:43:29.174Z
+// Closures: Inner functions access outer function variables | 2026-04-23T14:43:30.174Z
