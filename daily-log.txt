@@ -2319,3 +2319,4 @@ Node.js v24.11.1
 // Higher Order Functions: Functions that operate on functions | 2026-04-24T18:50:24.503Z
 // Currying: Transforming multi-argument functions | 2026-04-24T18:50:25.503Z
 // Memoization: Caching function results | 2026-04-24T18:50:26.503Z
+// Debouncing: Limiting function execution rate | 2026-04-24T18:50:27.503Z
