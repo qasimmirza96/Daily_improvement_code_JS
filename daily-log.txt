@@ -2544,3 +2544,4 @@ Node.js v24.11.1
 // Debouncing: Limiting function execution rate | 2026-04-28T17:45:35.426Z
 // Throttling: Controlling function execution frequency | 2026-04-28T17:45:36.426Z
 // Event Delegation: Handling events on parent elements | 2026-04-28T17:45:37.426Z
+// DOM Manipulation: Modifying HTML structure | 2026-04-28T17:45:38.426Z
