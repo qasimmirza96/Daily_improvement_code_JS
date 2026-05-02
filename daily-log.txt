@@ -2749,3 +2749,4 @@ Node.js v24.11.1
 // Generators: Functions that can pause execution | 2026-05-02T18:20:39.751Z
 // Symbols: Unique and immutable primitive values | 2026-05-02T18:20:40.751Z
 // Proxy: Intercept and customize object operations | 2026-05-02T18:20:41.751Z
+// Reflect API: Built-in object for interceptable operations | 2026-05-02T18:20:42.751Z
