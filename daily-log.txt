@@ -2761,3 +2761,4 @@ Node.js v24.11.1
 // IIFE: Immediately Invoked Function Expression | 2026-05-02T18:20:51.751Z
 // Callback Functions: Functions passed as arguments | 2026-05-02T18:20:52.751Z
 // Higher Order Functions: Functions that operate on functions | 2026-05-02T18:20:53.751Z
+// Currying: Transforming multi-argument functions | 2026-05-02T18:20:54.751Z
