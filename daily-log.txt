@@ -2797,3 +2797,4 @@ Node.js v24.11.1
 // Modules: Import and export functionality | 2026-05-05T14:29:28.709Z
 // Classes: Syntactic sugar over prototypes | 2026-05-05T14:29:29.709Z
 // Generators: Functions that can pause execution | 2026-05-05T14:29:30.709Z
+// Symbols: Unique and immutable primitive values | 2026-05-05T14:29:31.709Z
