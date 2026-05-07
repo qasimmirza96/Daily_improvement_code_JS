@@ -2896,3 +2896,4 @@ Node.js v24.11.1
 // Call, Apply, Bind: Function context manipulation | 2026-05-07T10:34:30.734Z
 // IIFE: Immediately Invoked Function Expression | 2026-05-07T10:34:31.734Z
 // Callback Functions: Functions passed as arguments | 2026-05-07T10:34:32.734Z
+// Higher Order Functions: Functions that operate on functions | 2026-05-07T10:34:33.734Z
