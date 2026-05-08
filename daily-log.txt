@@ -2922,3 +2922,4 @@ Node.js v24.11.1
 // Hoisting: var declarations are moved to top of scope | 2026-05-08T22:41:09.248Z
 // Event Loop: Handles async operations in JavaScript | 2026-05-08T22:41:10.248Z
 // Closures: Inner functions access outer function variables | 2026-05-08T22:41:11.248Z
+// Prototypes: Objects inherit properties from prototype chain | 2026-05-08T22:41:12.248Z
