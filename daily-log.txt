@@ -2957,3 +2957,4 @@ Node.js v24.11.1
 // Memoization: Caching function results | 2026-05-10T15:28:15.424Z
 // Debouncing: Limiting function execution rate | 2026-05-10T15:28:16.424Z
 // Throttling: Controlling function execution frequency | 2026-05-10T15:28:17.424Z
+// Event Delegation: Handling events on parent elements | 2026-05-10T15:28:18.424Z
