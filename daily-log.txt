@@ -2973,3 +2973,4 @@ Node.js v24.11.1
 // Nullish Coalescing: ?? operator | 2026-05-10T15:28:31.424Z
 // Optional Chaining: ?. operator | 2026-05-10T15:28:32.424Z
 // Rest Parameters: Collecting function arguments | 2026-05-10T15:28:33.424Z
+// Default Parameters: Function parameter defaults | 2026-05-10T15:28:34.424Z
