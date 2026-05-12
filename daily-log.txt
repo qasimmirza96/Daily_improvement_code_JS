@@ -3021,3 +3021,4 @@ Node.js v24.11.1
 // Type Coercion: Implicit type conversion | 2026-05-12T11:39:58.676Z
 // Truthy and Falsy: Boolean evaluation | 2026-05-12T11:39:59.676Z
 // Nullish Coalescing: ?? operator | 2026-05-12T11:40:00.676Z
+// Optional Chaining: ?. operator | 2026-05-12T11:40:01.676Z
