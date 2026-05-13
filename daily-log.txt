@@ -3062,3 +3062,4 @@ Node.js v24.11.1
 // Local Storage: Browser data persistence | 2026-05-13T16:06:23.320Z
 // Session Storage: Temporary browser storage | 2026-05-13T16:06:24.320Z
 // Cookies: Small data stored in browser | 2026-05-13T16:06:25.320Z
+// Fetch API: Modern way to make HTTP requests | 2026-05-13T16:06:26.320Z
