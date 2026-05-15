@@ -3165,3 +3165,4 @@ Node.js v24.11.1
 // Fetch API: Modern way to make HTTP requests | 2026-05-15T18:36:49.734Z
 // XMLHttpRequest: Traditional AJAX method | 2026-05-15T18:36:50.734Z
 // JSON: JavaScript Object Notation | 2026-05-15T18:36:51.734Z
+// Regular Expressions: Pattern matching in strings | 2026-05-15T18:36:52.734Z
