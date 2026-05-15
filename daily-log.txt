@@ -3174,3 +3174,4 @@ Node.js v24.11.1
 // Optional Chaining: ?. operator | 2026-05-15T18:36:58.734Z
 // Rest Parameters: Collecting function arguments | 2026-05-15T18:36:59.734Z
 // Default Parameters: Function parameter defaults | 2026-05-15T18:37:00.734Z
+// Ternary Operator: Conditional expression | 2026-05-15T18:37:01.734Z
