@@ -3950,3 +3950,4 @@ Node.js v24.11.1
 // Strict Mode: Enforces stricter parsing and error handling | 2026-05-16T11:41:06.263Z
 // This Keyword: Context-dependent reference | 2026-05-16T11:41:07.263Z
 // Call, Apply, Bind: Function context manipulation | 2026-05-16T11:41:08.263Z
+// IIFE: Immediately Invoked Function Expression | 2026-05-16T11:41:09.263Z
