@@ -3470,3 +3470,4 @@ Node.js v24.11.1
 // Math Object: Mathematical operations | 2026-05-16T11:33:06.263Z
 // Type Coercion: Implicit type conversion | 2026-05-16T11:33:07.263Z
 // Truthy and Falsy: Boolean evaluation | 2026-05-16T11:33:08.263Z
+// Nullish Coalescing: ?? operator | 2026-05-16T11:33:09.263Z
