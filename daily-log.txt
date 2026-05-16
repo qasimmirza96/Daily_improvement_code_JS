@@ -3568,3 +3568,4 @@ Node.js v24.11.1
 // Regular Expressions: Pattern matching in strings | 2026-05-16T11:34:44.263Z
 // Date Object: Working with dates and times | 2026-05-16T11:34:45.263Z
 // Math Object: Mathematical operations | 2026-05-16T11:34:46.263Z
+// Type Coercion: Implicit type conversion | 2026-05-16T11:34:47.263Z
