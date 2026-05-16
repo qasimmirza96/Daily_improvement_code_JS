@@ -3199,3 +3199,4 @@ Node.js v24.11.1
 // Error Handling: try, catch, finally blocks | 2026-05-16T11:28:35.263Z
 // Strict Mode: Enforces stricter parsing and error handling | 2026-05-16T11:28:36.263Z
 // This Keyword: Context-dependent reference | 2026-05-16T11:28:37.263Z
+// Call, Apply, Bind: Function context manipulation | 2026-05-16T11:28:38.263Z
