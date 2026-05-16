@@ -3861,3 +3861,4 @@ Node.js v24.11.1
 // DOM Manipulation: Modifying HTML structure | 2026-05-16T11:39:37.263Z
 // Local Storage: Browser data persistence | 2026-05-16T11:39:38.263Z
 // Session Storage: Temporary browser storage | 2026-05-16T11:39:39.263Z
+// Cookies: Small data stored in browser | 2026-05-16T11:39:40.263Z
