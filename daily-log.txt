@@ -4163,3 +4163,4 @@ Node.js v24.11.1
 // Session Storage: Temporary browser storage | 2026-05-16T11:44:39.263Z
 // Cookies: Small data stored in browser | 2026-05-16T11:44:40.263Z
 // Fetch API: Modern way to make HTTP requests | 2026-05-16T11:44:41.263Z
+// XMLHttpRequest: Traditional AJAX method | 2026-05-16T11:44:42.263Z
