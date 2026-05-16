@@ -4042,3 +4042,4 @@ Node.js v24.11.1
 // Symbols: Unique and immutable primitive values | 2026-05-16T11:42:38.263Z
 // Proxy: Intercept and customize object operations | 2026-05-16T11:42:39.263Z
 // Reflect API: Built-in object for interceptable operations | 2026-05-16T11:42:40.263Z
+// WeakMap and WeakSet: Garbage-collectable collections | 2026-05-16T11:42:41.263Z
