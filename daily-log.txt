@@ -3796,3 +3796,4 @@ Node.js v24.11.1
 // Array Methods: map, filter, reduce, forEach | 2026-05-16T11:38:32.263Z
 // String Methods: split, slice, substring, includes | 2026-05-16T11:38:33.263Z
 // Object Methods: assign, keys, values, entries | 2026-05-16T11:38:34.263Z
+// Error Handling: try, catch, finally blocks | 2026-05-16T11:38:35.263Z
