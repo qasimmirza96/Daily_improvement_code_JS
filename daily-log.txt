@@ -3185,3 +3185,4 @@ Node.js v24.11.1
 // Template Literals: Use backticks for string interpolation | 2026-05-16T11:28:21.263Z
 // Spread Operator: ...array expands elements | 2026-05-16T11:28:22.263Z
 // Async/Await: Cleaner syntax for promise-based code | 2026-05-16T11:28:23.263Z
+// Map and Set: New data structures in ES6 | 2026-05-16T11:28:24.263Z
