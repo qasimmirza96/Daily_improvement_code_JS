@@ -3298,3 +3298,4 @@ Node.js v24.11.1
 // Object Methods: assign, keys, values, entries | 2026-05-16T11:30:14.263Z
 // Error Handling: try, catch, finally blocks | 2026-05-16T11:30:15.263Z
 // Strict Mode: Enforces stricter parsing and error handling | 2026-05-16T11:30:16.263Z
+// This Keyword: Context-dependent reference | 2026-05-16T11:30:17.263Z
