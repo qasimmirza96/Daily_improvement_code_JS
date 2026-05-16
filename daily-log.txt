@@ -3495,3 +3495,4 @@ Node.js v24.11.1
 // WeakMap and WeakSet: Garbage-collectable collections | 2026-05-16T11:33:31.263Z
 // Array Methods: map, filter, reduce, forEach | 2026-05-16T11:33:32.263Z
 // String Methods: split, slice, substring, includes | 2026-05-16T11:33:33.263Z
+// Object Methods: assign, keys, values, entries | 2026-05-16T11:33:34.263Z
