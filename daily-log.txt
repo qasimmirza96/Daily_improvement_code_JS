@@ -4214,3 +4214,4 @@ Node.js v24.11.1
 // XMLHttpRequest: Traditional AJAX method | 2026-05-19T12:09:29.741Z
 // JSON: JavaScript Object Notation | 2026-05-19T12:09:30.741Z
 // Regular Expressions: Pattern matching in strings | 2026-05-19T12:09:31.741Z
+// Date Object: Working with dates and times | 2026-05-19T12:09:32.741Z
