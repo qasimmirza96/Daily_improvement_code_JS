@@ -4207,3 +4207,4 @@ Node.js v24.11.1
 // Throttling: Controlling function execution frequency | 2026-05-19T12:09:22.741Z
 // Event Delegation: Handling events on parent elements | 2026-05-19T12:09:23.741Z
 // DOM Manipulation: Modifying HTML structure | 2026-05-19T12:09:24.741Z
+// Local Storage: Browser data persistence | 2026-05-19T12:09:25.741Z
