@@ -4305,3 +4305,4 @@ Node.js v24.11.1
 // String Methods: split, slice, substring, includes | 2026-05-22T16:47:06.433Z
 // Object Methods: assign, keys, values, entries | 2026-05-22T16:47:07.433Z
 // Error Handling: try, catch, finally blocks | 2026-05-22T16:47:08.433Z
+// Strict Mode: Enforces stricter parsing and error handling | 2026-05-22T16:47:09.433Z
