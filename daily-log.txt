@@ -4275,3 +4275,4 @@ Node.js v24.11.1
 // JSON: JavaScript Object Notation | 2026-05-22T10:20:32.842Z
 // Regular Expressions: Pattern matching in strings | 2026-05-22T10:20:33.842Z
 // Date Object: Working with dates and times | 2026-05-22T10:20:34.842Z
+// Math Object: Mathematical operations | 2026-05-22T10:20:35.842Z
