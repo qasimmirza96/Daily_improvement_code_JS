@@ -4395,3 +4395,4 @@ Node.js v24.11.1
 // Async/Await: Cleaner syntax for promise-based code | 2026-05-24T18:43:35.523Z
 // Map and Set: New data structures in ES6 | 2026-05-24T18:43:36.523Z
 // Modules: Import and export functionality | 2026-05-24T18:43:37.523Z
+// Classes: Syntactic sugar over prototypes | 2026-05-24T18:43:38.523Z
