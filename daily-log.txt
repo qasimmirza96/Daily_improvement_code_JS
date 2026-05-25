@@ -4417,3 +4417,4 @@ Node.js v24.11.1
 // Event Loop: Handles async operations in JavaScript | 2026-05-25T12:27:30.551Z
 // Closures: Inner functions access outer function variables | 2026-05-25T12:27:31.551Z
 // Prototypes: Objects inherit properties from prototype chain | 2026-05-25T12:27:32.551Z
+// Promises: Handle asynchronous operations with .then() | 2026-05-25T12:27:33.551Z
