@@ -4481,3 +4481,4 @@ Node.js v24.11.1
 // Proxy: Intercept and customize object operations | 2026-05-25T12:28:34.551Z
 // Reflect API: Built-in object for interceptable operations | 2026-05-25T12:28:35.551Z
 // Hoisting: var declarations are moved to top of scope | 2026-05-26T03:16:34.985Z
+// Event Loop: Handles async operations in JavaScript | 2026-05-26T03:16:35.985Z
