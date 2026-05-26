@@ -4486,3 +4486,4 @@ Node.js v24.11.1
 // Prototypes: Objects inherit properties from prototype chain | 2026-05-26T03:16:37.985Z
 // Promises: Handle asynchronous operations with .then() | 2026-05-26T03:16:38.985Z
 // Arrow Functions: Shorter syntax, lexical this binding | 2026-05-26T03:16:39.985Z
+// Destructuring: Extract values from arrays/objects easily | 2026-05-26T03:16:40.985Z
