@@ -4502,3 +4502,4 @@ Node.js v24.11.1
 // String Methods: split, slice, substring, includes | 2026-05-26T03:16:53.985Z
 // Object Methods: assign, keys, values, entries | 2026-05-26T03:16:54.985Z
 // Error Handling: try, catch, finally blocks | 2026-05-26T03:16:55.985Z
+// Hoisting: var declarations are moved to top of scope | 2026-05-29T01:37:26.803Z
