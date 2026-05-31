@@ -4603,3 +4603,4 @@ Node.js v24.11.1
 // Map and Set: New data structures in ES6 | 2026-05-31T11:18:12.447Z
 // Modules: Import and export functionality | 2026-05-31T11:18:13.447Z
 // Classes: Syntactic sugar over prototypes | 2026-05-31T11:18:14.447Z
+// Generators: Functions that can pause execution | 2026-05-31T11:18:15.447Z
