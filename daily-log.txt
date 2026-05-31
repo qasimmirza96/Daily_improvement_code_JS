@@ -4591,3 +4591,4 @@ Node.js v24.11.1
 // Call, Apply, Bind: Function context manipulation | 2026-05-30T09:54:34.502Z
 // IIFE: Immediately Invoked Function Expression | 2026-05-30T09:54:35.502Z
 // Hoisting: var declarations are moved to top of scope | 2026-05-31T11:18:02.447Z
+// Event Loop: Handles async operations in JavaScript | 2026-05-31T11:18:03.447Z
