@@ -4800,3 +4800,4 @@ Node.js v24.11.1
 // Closures: Inner functions access outer function variables | 2026-06-01T15:12:05.251Z
 // Prototypes: Objects inherit properties from prototype chain | 2026-06-01T15:12:06.251Z
 // Promises: Handle asynchronous operations with .then() | 2026-06-01T15:12:07.251Z
+// Hoisting: var declarations are moved to top of scope | 2026-06-01T15:18:10.646Z
