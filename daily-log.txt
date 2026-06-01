@@ -4663,3 +4663,4 @@ Node.js v24.11.1
 // Object Methods: assign, keys, values, entries | 2026-06-01T08:36:24.983Z
 // Error Handling: try, catch, finally blocks | 2026-06-01T08:36:25.983Z
 // Hoisting: var declarations are moved to top of scope | 2026-06-01T08:50:29.453Z
+// Event Loop: Handles async operations in JavaScript | 2026-06-01T08:50:30.453Z
