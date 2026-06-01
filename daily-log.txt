@@ -4752,3 +4752,4 @@ Node.js v24.11.1
 // Promises: Handle asynchronous operations with .then() | 2026-06-01T09:00:28.733Z
 // Arrow Functions: Shorter syntax, lexical this binding | 2026-06-01T09:00:29.733Z
 // Destructuring: Extract values from arrays/objects easily | 2026-06-01T09:00:30.733Z
+// Template Literals: Use backticks for string interpolation | 2026-06-01T09:00:31.733Z
