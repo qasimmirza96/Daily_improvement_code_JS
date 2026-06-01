@@ -4828,3 +4828,4 @@ Node.js v24.11.1
 // Proxy: Intercept and customize object operations | 2026-06-01T15:20:48.718Z
 // Reflect API: Built-in object for interceptable operations | 2026-06-01T15:20:49.718Z
 // WeakMap and WeakSet: Garbage-collectable collections | 2026-06-01T15:20:50.718Z
+// Array Methods: map, filter, reduce, forEach | 2026-06-01T15:20:51.718Z
