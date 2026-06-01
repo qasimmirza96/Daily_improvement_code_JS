@@ -4793,3 +4793,4 @@ Node.js v24.11.1
 // Nullish Coalescing: ?? operator | 2026-06-01T09:01:09.733Z
 // Optional Chaining: ?. operator | 2026-06-01T09:01:10.733Z
 // Rest Parameters: Collecting function arguments | 2026-06-01T09:01:11.733Z
+// Hoisting: var declarations are moved to top of scope | 2026-06-01T15:09:27.091Z
