@@ -4706,3 +4706,4 @@ Node.js v24.11.1
 // Spread Operator: ...array expands elements | 2026-06-01T08:59:42.733Z
 // Async/Await: Cleaner syntax for promise-based code | 2026-06-01T08:59:43.733Z
 // Map and Set: New data structures in ES6 | 2026-06-01T08:59:44.733Z
+// Modules: Import and export functionality | 2026-06-01T08:59:45.733Z
