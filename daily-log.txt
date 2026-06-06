@@ -4949,3 +4949,4 @@ Node.js v24.11.1
 // Callback Functions: Functions passed as arguments | 2026-06-06T14:33:38.889Z
 // Higher Order Functions: Functions that operate on functions | 2026-06-06T14:33:39.889Z
 // Currying: Transforming multi-argument functions | 2026-06-06T14:33:40.889Z
+// Memoization: Caching function results | 2026-06-06T14:33:41.889Z
