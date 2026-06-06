@@ -4925,3 +4925,4 @@ Node.js v24.11.1
 // Closures: Inner functions access outer function variables | 2026-06-06T14:33:14.889Z
 // Prototypes: Objects inherit properties from prototype chain | 2026-06-06T14:33:15.889Z
 // Promises: Handle asynchronous operations with .then() | 2026-06-06T14:33:16.889Z
+// Arrow Functions: Shorter syntax, lexical this binding | 2026-06-06T14:33:17.889Z
