@@ -4964,3 +4964,4 @@ Node.js v24.11.1
 // Date Object: Working with dates and times | 2026-06-06T14:33:53.889Z
 // Math Object: Mathematical operations | 2026-06-06T14:33:54.889Z
 // Type Coercion: Implicit type conversion | 2026-06-06T14:33:55.889Z
+// Truthy and Falsy: Boolean evaluation | 2026-06-06T14:33:56.889Z
