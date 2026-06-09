@@ -5048,3 +5048,4 @@ Node.js v24.11.1
 // Math Object: Mathematical operations | 2026-06-08T16:12:09.095Z
 // Type Coercion: Implicit type conversion | 2026-06-08T16:12:10.095Z
 // Truthy and Falsy: Boolean evaluation | 2026-06-08T16:12:11.095Z
+// Hoisting: var declarations are moved to top of scope | 2026-06-09T15:32:52.839Z
