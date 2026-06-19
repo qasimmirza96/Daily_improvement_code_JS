@@ -1,4 +1,4 @@
-# Daily JS Learning Automation
+# Daily JS Learning Program
 
 This repository automates daily JavaScript activity by appending topic comments to `daily-log.txt`, creating commits, and pushing to GitHub.
 
