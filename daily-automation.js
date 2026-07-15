@@ -2,7 +2,7 @@ const fs = require('fs');
 const { execSync } = require('child_process');
 const path = require('path');
 
-// ANSI color codes
+// ANSI color codes AADED
 const colors = {
   reset: '\x1b[0m',
   green: '\x1b[32m',
