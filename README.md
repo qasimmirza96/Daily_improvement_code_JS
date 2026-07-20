@@ -48,3 +48,7 @@ node activity-plan.js --schedule --time 08:30
 - Automation appends entries only to `daily-log.txt`.
 - It does not generate new `day*.js` files.
 - Ensure Git credentials and remote are configured before first push.
+{
+  "name": "Mirza",
+  "age": 20
+}
