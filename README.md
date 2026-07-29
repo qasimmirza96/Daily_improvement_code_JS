@@ -71,3 +71,47 @@ const orders = [
 
 console.log(groupBy(orders, "status"));
 // { pending: [...], shipped: [...] }
+Here are the JavaScript concepts that matter most — especially for interviews or leveling up:
+
+Core Language
+
+Closures – functions retaining access to their outer scope's variables even after the outer function returns. Classic interview topic.
+this binding – how it changes with regular functions, arrow functions, call/apply/bind, and method invocation.
+Hoisting – var vs let/const, function declarations vs expressions, and the "temporal dead zone."
+Scope & the scope chain – global, function, block scope (let/const introduced block scope).
+Prototypal inheritance – __proto__, prototype, Object.create(), and how class syntax is sugar over this.
+
+Async JavaScript
+
+Event loop, call stack, microtask/macrotask queue – why setTimeout(fn, 0) runs after a Promise.then().
+Promises – states (pending/fulfilled/rejected), chaining, Promise.all/allSettled/race/any.
+async/await – syntactic sugar over promises; error handling with try/catch.
+Callbacks – and why we moved away from callback hell.
+
+Functions & Data
+
+Higher-order functions – functions that take/return functions (map, filter, reduce).
+Pure functions & immutability – no side effects, don't mutate inputs.
+Currying & partial application.
+Destructuring & spread/rest operators.
+Array/object methods – map, filter, reduce, find, some/every, Object.entries/keys/values.
+
+Types & Comparisons
+
+Type coercion – == vs ===, truthy/falsy values.
+Primitive vs reference types – value copy vs reference copy (objects/arrays mutate by reference).
+null vs undefined.
+
+Modern JS (ES6+)
+
+Modules – import/export.
+Template literals, optional chaining (?.), nullish coalescing (??).
+Generators & iterators (function*, yield) – less common but shows up in advanced roles.
+
+Memory & Performance
+
+Garbage collection basics – reference counting, mark-and-sweep.
+Debounce vs throttle – common in UI-heavy work.
+Memory leaks – detached DOM nodes, forgotten timers/listeners.
+
+Given you work across Angular and Node-ish tooling, closures, this, the event loop, and promises/async-await are the ones worth being rock-solid on — they trip people up most in code reviews and interviews alike.
