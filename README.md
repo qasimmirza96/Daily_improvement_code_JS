@@ -115,3 +115,145 @@ Debounce vs throttle – common in UI-heavy work.
 Memory leaks – detached DOM nodes, forgotten timers/listeners.
 
 Given you work across Angular and Node-ish tooling, closures, this, the event loop, and promises/async-await are the ones worth being rock-solid on — they trip people up most in code reviews and interviews alike.
+1. Print "Hello World"
+console.log("Hello, World!");
+2. Variables
+let name = "Meerab";
+const age = 22;
+let isStudent = true;
+
+console.log(name);
+console.log(age);
+console.log(isStudent);
+3. If-Else Statement
+let marks = 75;
+
+if (marks >= 50) {
+    console.log("Pass");
+} else {
+    console.log("Fail");
+}
+4. For Loop
+for (let i = 1; i <= 5; i++) {
+    console.log(i);
+}
+
+Output:
+
+1
+2
+3
+4
+5
+5. While Loop
+let i = 1;
+
+while (i <= 5) {
+    console.log(i);
+    i++;
+}
+6. Function
+function add(a, b) {
+    return a + b;
+}
+
+let result = add(10, 20);
+console.log(result);
+
+Output:
+
+30
+7. Arrow Function
+const multiply = (a, b) => {
+    return a * b;
+};
+
+console.log(multiply(5, 4));
+
+Output:
+
+20
+8. Arrays
+let fruits = ["Apple", "Banana", "Mango"];
+
+console.log(fruits[0]);
+
+fruits.push("Orange");
+
+console.log(fruits);
+9. Loop Through an Array
+let numbers = [10, 20, 30, 40, 50];
+
+numbers.forEach(function(number) {
+    console.log(number);
+});
+10. Objects
+let student = {
+    name: "Meerab",
+    age: 22,
+    city: "Lahore"
+};
+
+console.log(student.name);
+console.log(student.city);
+11. User Input
+let name = prompt("Enter your name:");
+
+console.log("Welcome " + name);
+12. Even or Odd
+let number = 7;
+
+if (number % 2 === 0) {
+    console.log("Even");
+} else {
+    console.log("Odd");
+}
+13. Find the Largest Number
+let a = 10;
+let b = 25;
+let c = 15;
+
+let largest = a;
+
+if (b > largest) {
+    largest = b;
+}
+
+if (c > largest) {
+    largest = c;
+}
+
+console.log("Largest number is:", largest);
+14. Sum of Array
+let numbers = [10, 20, 30, 40];
+let sum = 0;
+
+for (let i = 0; i < numbers.length; i++) {
+    sum += numbers[i];
+}
+
+console.log(sum);
+
+Output:
+
+100
+15. Simple Calculator
+function calculator(a, b, operator) {
+    switch (operator) {
+        case "+":
+            return a + b;
+        case "-":
+            return a - b;
+        case "*":
+            return a * b;
+        case "/":
+            return a / b;
+        default:
+            return "Invalid Operator";
+    }
+}
+
+console.log(calculator(20, 10, "+"));
+console.log(calculator(20, 10, "-"));
+console.log(calculator(20, 10, "*"));
+console.log(calculator(20, 10, "/"));
