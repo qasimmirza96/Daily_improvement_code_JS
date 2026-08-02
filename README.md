@@ -257,3 +257,60 @@ console.log(calculator(20, 10, "+"));
 console.log(calculator(20, 10, "-"));
 console.log(calculator(20, 10, "*"));
 console.log(calculator(20, 10, "/"));
+1. Variables
+
+Variables store data.
+
+let name = "Meerab";
+let age = 22;
+const country = "Pakistan";
+
+console.log(name);
+console.log(age);
+console.log(country);
+Difference
+let city = "Lahore";
+city = "Islamabad"; // Allowed
+
+const pi = 3.14;
+// pi = 3.15 ❌ Error
+let → Value can change.
+const → Value cannot change.
+2. Data Types
+let username = "Ali";      // String
+let age = 20;              // Number
+let isStudent = true;      // Boolean
+let marks = null;          // Null
+let address;               // Undefined
+3. Operators
+Arithmetic
+let a = 10;
+let b = 5;
+
+console.log(a + b);
+console.log(a - b);
+console.log(a * b);
+console.log(a / b);
+console.log(a % b);
+Comparison
+console.log(10 > 5);     // true
+console.log(10 < 5);     // false
+console.log(10 == "10"); // true
+console.log(10 === "10");// false
+
+Use === because it checks both value and type.
+
+4. If-Else
+let age = 18;
+
+if (age >= 18) {
+    console.log("You can vote.");
+} else {
+    console.log("You cannot vote.");
+}
+5. Loops
+For Loop
+for (let i = 1; i <= 5; i++) {
+    console.log(i);
+}
+
