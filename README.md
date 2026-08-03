@@ -330,3 +330,10 @@ If you get:
 'node' is not recognized...
 
 then install Node.js from its official website and restart VS Code.
+console.log("Hello, World!");
+
+let name = "Meerab";
+let age = 22;
+
+console.log(`My name is ${name}`);
+console.log(`I am ${age} years old.`);
