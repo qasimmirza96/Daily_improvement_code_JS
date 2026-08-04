@@ -337,3 +337,49 @@ let age = 22;
 
 console.log(`My name is ${name}`);
 console.log(`I am ${age} years old.`);
+// Array utilities
+const arrayUtils = {
+  // Remove duplicates
+  unique: (arr) => [...new Set(arr)],
+
+  // Chunk array into smaller groups
+  chunk: (arr, size) => {
+    const result = [];
+    for (let i = 0; i < arr.length; i += size) {
+      result.push(arr.slice(i, i + size));
+    }
+    return result;
+  },
+
+  // Group by a key
+  groupBy: (arr, key) =>
+    arr.reduce((acc, item) => {
+      const group = typeof key === 'function' ? key(item) : item[key];
+      (acc[group] = acc[group] || []).push(item);
+      return acc;
+    }, {}),
+
+  // Flatten nested arrays
+  flatten: (arr) => arr.flat(Infinity),
+};
+
+// String utilities
+const stringUtils = {
+  // Capitalize first letter
+  capitalize: (str) => str.charAt(0).toUpperCase() + str.slice(1),
+
+  // Convert to slug (e.g. for URLs)
+  slugify: (str) =>
+    str
+      .toLowerCase()
+      .trim()
+      .replace(/[^\w\s-]/g, '')
+      .replace(/[\s_-]+/g, '-'),
+
+  // Truncate with ellipsis
+  truncate: (str, maxLength) =>
+    str.length > maxLength ? str.slice(0, maxLength).trim() + '...' : str,
+
+  // Reverse string
+  reverse: (str) => str.split('').reverse().join(''),
+};
