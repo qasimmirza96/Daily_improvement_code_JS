@@ -89,7 +89,7 @@ node activity-plan.js --schedule --time 08:30
 git clone https://github.com/qasimmirza96/Daily_improvement_code_JS.git
 cd Daily_improvement_code_JS
 ```
-
+ok
 ### 2. Update Repository Path
 Open `daily-automation.js` and change line 6 to your local path:
 ```javascript
