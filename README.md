@@ -2,7 +2,7 @@
 
 This repository automates daily JavaScript activity by appending topic comments to `daily-log.txt`, creating commits, and pushing to GitHub.
 
-## Core Scripts setup
+## Core Scripts setup ok
 - `setup-fresh.js`: Fresh setup for a new repository (new history).
 - `setup-dev.js`: Setup while keeping existing history.
 - `daily-automation.js`: Main automation runner.
