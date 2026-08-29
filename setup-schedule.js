@@ -2,15 +2,15 @@ const { execSync } = require('child_process');
 const path = require('path');
 const fs = require('fs');
 
-const colors = {
-  reset: '\x1b[0m',
-  green: '\x1b[32m',
-  blue: '\x1b[34m',
-  yellow: '\x1b[33m',
-  cyan: '\x1b[36m',
-  red: '\x1b[31m',
-  bright: '\x1b[1m'
-};
+// const colors = {
+//   reset: '\x1b[0m',
+//   green: '\x1b[32m',
+//   blue: '\x1b[34m',
+//   yellow: '\x1b[33m',
+//   cyan: '\x1b[36m',
+//   red: '\x1b[31m',
+//   bright: '\x1b[1m'
+// };
 
 function log(message, color = 'reset') {
   console.log(`${colors[color]}${message}${colors.reset}`);
