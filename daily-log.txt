@@ -15,3 +15,4 @@
 // Prototypes: Objects inherit properties from prototype chain | 2026-09-03T14:20:15.040Z
 // Promises: Handle asynchronous operations with .then() | 2026-09-03T14:20:16.040Z
 // Arrow Functions: Shorter syntax, lexical this binding | 2026-09-03T14:20:17.040Z
+// Destructuring: Extract values from arrays/objects easily | 2026-09-03T14:20:18.040Z
