@@ -50,3 +50,4 @@
 // XMLHttpRequest: Traditional AJAX method | 2026-09-03T14:20:50.040Z
 // JSON: JavaScript Object Notation | 2026-09-03T14:20:51.040Z
 // Regular Expressions: Pattern matching in strings | 2026-09-03T14:20:52.040Z
+// Date Object: Working with dates and times | 2026-09-03T14:20:53.040Z
