@@ -95,3 +95,4 @@
 // DOM Manipulation: Modifying HTML structure | 2026-09-03T14:21:35.040Z
 // Local Storage: Browser data persistence | 2026-09-03T14:21:36.040Z
 // Session Storage: Temporary browser storage | 2026-09-03T14:21:37.040Z
+// Cookies: Small data stored in browser | 2026-09-03T14:21:38.040Z
