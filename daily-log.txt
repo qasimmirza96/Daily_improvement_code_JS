@@ -9,3 +9,4 @@
 // Template Literals: Use backticks for string interpolation | 2026-09-03T13:47:16.318Z
 // Spread Operator: ...array expands elements | 2026-09-03T13:47:17.318Z
 // Async/Await: Cleaner syntax for promise-based code | 2026-09-03T13:47:18.318Z
+// Hoisting: var declarations are moved to top of scope | 2026-09-03T14:20:12.040Z
