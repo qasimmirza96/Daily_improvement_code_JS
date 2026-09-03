@@ -94,3 +94,4 @@
 // Event Delegation: Handling events on parent elements | 2026-09-03T14:21:34.040Z
 // DOM Manipulation: Modifying HTML structure | 2026-09-03T14:21:35.040Z
 // Local Storage: Browser data persistence | 2026-09-03T14:21:36.040Z
+// Session Storage: Temporary browser storage | 2026-09-03T14:21:37.040Z
