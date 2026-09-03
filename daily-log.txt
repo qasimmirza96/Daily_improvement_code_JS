@@ -1,3 +1,4 @@
 
 // Hoisting: var declarations are moved to top of scope | 2026-09-03T13:47:09.318Z
 // Event Loop: Handles async operations in JavaScript | 2026-09-03T13:47:10.318Z
+// Closures: Inner functions access outer function variables | 2026-09-03T13:47:11.318Z
