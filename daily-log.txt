@@ -73,3 +73,4 @@
 // Modules: Import and export functionality | 2026-09-03T14:21:13.040Z
 // Classes: Syntactic sugar over prototypes | 2026-09-03T14:21:14.040Z
 // Generators: Functions that can pause execution | 2026-09-03T14:21:15.040Z
+// Symbols: Unique and immutable primitive values | 2026-09-03T14:21:16.040Z
