@@ -84,3 +84,4 @@
 // Strict Mode: Enforces stricter parsing and error handling | 2026-09-03T14:21:24.040Z
 // This Keyword: Context-dependent reference | 2026-09-03T14:21:25.040Z
 // Call, Apply, Bind: Function context manipulation | 2026-09-03T14:21:26.040Z
+// IIFE: Immediately Invoked Function Expression | 2026-09-03T14:21:27.040Z
