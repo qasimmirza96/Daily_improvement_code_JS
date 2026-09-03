@@ -24,3 +24,4 @@
 // Classes: Syntactic sugar over prototypes | 2026-09-03T14:20:24.040Z
 // Generators: Functions that can pause execution | 2026-09-03T14:20:25.040Z
 // Symbols: Unique and immutable primitive values | 2026-09-03T14:20:26.040Z
+// Proxy: Intercept and customize object operations | 2026-09-03T14:20:27.040Z
