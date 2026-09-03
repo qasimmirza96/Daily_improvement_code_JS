@@ -20,3 +20,4 @@
 // Spread Operator: ...array expands elements | 2026-09-03T14:20:20.040Z
 // Async/Await: Cleaner syntax for promise-based code | 2026-09-03T14:20:21.040Z
 // Map and Set: New data structures in ES6 | 2026-09-03T14:20:22.040Z
+// Modules: Import and export functionality | 2026-09-03T14:20:23.040Z
