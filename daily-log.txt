@@ -64,3 +64,4 @@
 // Closures: Inner functions access outer function variables | 2026-09-03T14:21:04.040Z
 // Prototypes: Objects inherit properties from prototype chain | 2026-09-03T14:21:05.040Z
 // Promises: Handle asynchronous operations with .then() | 2026-09-03T14:21:06.040Z
+// Arrow Functions: Shorter syntax, lexical this binding | 2026-09-03T14:21:07.040Z
