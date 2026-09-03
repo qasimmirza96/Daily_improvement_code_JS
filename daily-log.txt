@@ -80,3 +80,4 @@
 // Array Methods: map, filter, reduce, forEach | 2026-09-03T14:21:20.040Z
 // String Methods: split, slice, substring, includes | 2026-09-03T14:21:21.040Z
 // Object Methods: assign, keys, values, entries | 2026-09-03T14:21:22.040Z
+// Error Handling: try, catch, finally blocks | 2026-09-03T14:21:23.040Z
