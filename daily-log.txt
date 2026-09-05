@@ -109,3 +109,4 @@
 // Map and Set: New data structures in ES6 | 2026-09-05T14:18:36.961Z
 // Modules: Import and export functionality | 2026-09-05T14:18:37.961Z
 // Classes: Syntactic sugar over prototypes | 2026-09-05T14:18:38.961Z
+// Generators: Functions that can pause execution | 2026-09-05T14:18:39.961Z
