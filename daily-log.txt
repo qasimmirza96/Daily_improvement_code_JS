@@ -127,3 +127,4 @@
 // Currying: Transforming multi-argument functions | 2026-09-05T14:18:54.961Z
 // Memoization: Caching function results | 2026-09-05T14:18:55.961Z
 // Debouncing: Limiting function execution rate | 2026-09-05T14:18:56.961Z
+// Throttling: Controlling function execution frequency | 2026-09-05T14:18:57.961Z
