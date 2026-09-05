@@ -99,3 +99,4 @@
 // Hoisting: var declarations are moved to top of scope | 2026-09-05T14:18:26.961Z
 // Event Loop: Handles async operations in JavaScript | 2026-09-05T14:18:27.961Z
 // Closures: Inner functions access outer function variables | 2026-09-05T14:18:28.961Z
+// Prototypes: Objects inherit properties from prototype chain | 2026-09-05T14:18:29.961Z
