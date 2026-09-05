@@ -123,3 +123,4 @@
 // Call, Apply, Bind: Function context manipulation | 2026-09-05T14:18:50.961Z
 // IIFE: Immediately Invoked Function Expression | 2026-09-05T14:18:51.961Z
 // Callback Functions: Functions passed as arguments | 2026-09-05T14:18:52.961Z
+// Higher Order Functions: Functions that operate on functions | 2026-09-05T14:18:53.961Z
