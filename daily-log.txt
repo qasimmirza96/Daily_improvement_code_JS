@@ -100,3 +100,4 @@
 // Event Loop: Handles async operations in JavaScript | 2026-09-05T14:18:27.961Z
 // Closures: Inner functions access outer function variables | 2026-09-05T14:18:28.961Z
 // Prototypes: Objects inherit properties from prototype chain | 2026-09-05T14:18:29.961Z
+// Promises: Handle asynchronous operations with .then() | 2026-09-05T14:18:30.961Z
