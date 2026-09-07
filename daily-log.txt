@@ -228,3 +228,4 @@
 // Memoization: Caching function results | 2026-09-07T17:08:42.585Z
 // Debouncing: Limiting function execution rate | 2026-09-07T17:08:43.585Z
 // Throttling: Controlling function execution frequency | 2026-09-07T17:08:44.585Z
+// Event Delegation: Handling events on parent elements | 2026-09-07T17:08:45.585Z
