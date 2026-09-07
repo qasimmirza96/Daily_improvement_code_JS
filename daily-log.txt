@@ -285,3 +285,4 @@
 // Cookies: Small data stored in browser | 2026-09-07T17:09:39.585Z
 // Fetch API: Modern way to make HTTP requests | 2026-09-07T17:09:40.585Z
 // XMLHttpRequest: Traditional AJAX method | 2026-09-07T17:09:41.585Z
+// JSON: JavaScript Object Notation | 2026-09-07T17:09:42.585Z
