@@ -237,3 +237,4 @@
 // XMLHttpRequest: Traditional AJAX method | 2026-09-07T17:08:51.585Z
 // JSON: JavaScript Object Notation | 2026-09-07T17:08:52.585Z
 // Regular Expressions: Pattern matching in strings | 2026-09-07T17:08:53.585Z
+// Date Object: Working with dates and times | 2026-09-07T17:08:54.585Z
