@@ -244,3 +244,4 @@
 // Nullish Coalescing: ?? operator | 2026-09-07T17:08:58.585Z
 // Optional Chaining: ?. operator | 2026-09-07T17:08:59.585Z
 // Rest Parameters: Collecting function arguments | 2026-09-07T17:09:00.585Z
+// Default Parameters: Function parameter defaults | 2026-09-07T17:09:01.585Z
