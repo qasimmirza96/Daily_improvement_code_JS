@@ -303,3 +303,4 @@
 // Promises: Handle asynchronous operations with .then() | 2026-09-07T17:09:57.585Z
 // Arrow Functions: Shorter syntax, lexical this binding | 2026-09-07T17:09:58.585Z
 // Destructuring: Extract values from arrays/objects easily | 2026-09-07T17:09:59.585Z
+// Template Literals: Use backticks for string interpolation | 2026-09-07T17:10:00.585Z
