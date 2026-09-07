@@ -326,3 +326,4 @@
 // Higher Order Functions: Functions that operate on functions | 2026-09-07T17:10:20.585Z
 // Currying: Transforming multi-argument functions | 2026-09-07T17:10:21.585Z
 // Memoization: Caching function results | 2026-09-07T17:10:22.585Z
+// Debouncing: Limiting function execution rate | 2026-09-07T17:10:23.585Z
