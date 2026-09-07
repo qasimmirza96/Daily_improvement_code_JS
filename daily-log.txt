@@ -336,3 +336,4 @@
 // Fetch API: Modern way to make HTTP requests | 2026-09-07T17:10:30.585Z
 // XMLHttpRequest: Traditional AJAX method | 2026-09-07T17:10:31.585Z
 // JSON: JavaScript Object Notation | 2026-09-07T17:10:32.585Z
+// Regular Expressions: Pattern matching in strings | 2026-09-07T17:10:33.585Z
