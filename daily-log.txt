@@ -191,3 +191,4 @@
 // Math Object: Mathematical operations | 2026-09-07T17:08:05.585Z
 // Type Coercion: Implicit type conversion | 2026-09-07T17:08:06.585Z
 // Truthy and Falsy: Boolean evaluation | 2026-09-07T17:08:07.585Z
+// Nullish Coalescing: ?? operator | 2026-09-07T17:08:08.585Z
