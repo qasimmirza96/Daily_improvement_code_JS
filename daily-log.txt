@@ -162,3 +162,4 @@
 // Generators: Functions that can pause execution | 2026-09-07T17:07:36.585Z
 // Symbols: Unique and immutable primitive values | 2026-09-07T17:07:37.585Z
 // Proxy: Intercept and customize object operations | 2026-09-07T17:07:38.585Z
+// Reflect API: Built-in object for interceptable operations | 2026-09-07T17:07:39.585Z
