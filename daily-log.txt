@@ -196,3 +196,4 @@
 // Rest Parameters: Collecting function arguments | 2026-09-07T17:08:10.585Z
 // Default Parameters: Function parameter defaults | 2026-09-07T17:08:11.585Z
 // Ternary Operator: Conditional expression | 2026-09-07T17:08:12.585Z
+// Hoisting: var declarations are moved to top of scope | 2026-09-07T17:08:13.585Z
