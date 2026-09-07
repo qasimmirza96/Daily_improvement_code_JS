@@ -293,3 +293,4 @@
 // Truthy and Falsy: Boolean evaluation | 2026-09-07T17:09:47.585Z
 // Nullish Coalescing: ?? operator | 2026-09-07T17:09:48.585Z
 // Optional Chaining: ?. operator | 2026-09-07T17:09:49.585Z
+// Rest Parameters: Collecting function arguments | 2026-09-07T17:09:50.585Z
