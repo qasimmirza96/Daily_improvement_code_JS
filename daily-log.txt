@@ -233,3 +233,4 @@
 // Local Storage: Browser data persistence | 2026-09-07T17:08:47.585Z
 // Session Storage: Temporary browser storage | 2026-09-07T17:08:48.585Z
 // Cookies: Small data stored in browser | 2026-09-07T17:08:49.585Z
+// Fetch API: Modern way to make HTTP requests | 2026-09-07T17:08:50.585Z
