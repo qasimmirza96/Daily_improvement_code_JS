@@ -289,3 +289,4 @@
 // Regular Expressions: Pattern matching in strings | 2026-09-07T17:09:43.585Z
 // Date Object: Working with dates and times | 2026-09-07T17:09:44.585Z
 // Math Object: Mathematical operations | 2026-09-07T17:09:45.585Z
+// Type Coercion: Implicit type conversion | 2026-09-07T17:09:46.585Z
