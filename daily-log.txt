@@ -458,3 +458,4 @@
 // Async/Await: Cleaner syntax for promise-based code | 2026-09-08T10:09:05.542Z
 // Map and Set: New data structures in ES6 | 2026-09-08T10:09:06.542Z
 // Modules: Import and export functionality | 2026-09-08T10:09:07.542Z
+// Classes: Syntactic sugar over prototypes | 2026-09-08T10:09:08.542Z
