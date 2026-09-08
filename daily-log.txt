@@ -442,3 +442,4 @@
 // Type Coercion: Implicit type conversion | 2026-09-08T10:08:49.542Z
 // Truthy and Falsy: Boolean evaluation | 2026-09-08T10:08:50.542Z
 // Nullish Coalescing: ?? operator | 2026-09-08T10:08:51.542Z
+// Optional Chaining: ?. operator | 2026-09-08T10:08:52.542Z
