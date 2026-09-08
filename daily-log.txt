@@ -466,3 +466,4 @@
 // WeakMap and WeakSet: Garbage-collectable collections | 2026-09-08T10:09:13.542Z
 // Array Methods: map, filter, reduce, forEach | 2026-09-08T10:09:14.542Z
 // String Methods: split, slice, substring, includes | 2026-09-08T10:09:15.542Z
+// Object Methods: assign, keys, values, entries | 2026-09-08T10:09:16.542Z
