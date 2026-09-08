@@ -497,3 +497,4 @@
 // Default Parameters: Function parameter defaults | 2026-09-08T10:09:44.542Z
 // Ternary Operator: Conditional expression | 2026-09-08T10:09:45.542Z
 // Hoisting: var declarations are moved to top of scope | 2026-09-08T10:09:46.542Z
+// Event Loop: Handles async operations in JavaScript | 2026-09-08T10:09:47.542Z
