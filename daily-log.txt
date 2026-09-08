@@ -445,3 +445,4 @@
 // Optional Chaining: ?. operator | 2026-09-08T10:08:52.542Z
 // Rest Parameters: Collecting function arguments | 2026-09-08T10:08:53.542Z
 // Default Parameters: Function parameter defaults | 2026-09-08T10:08:54.542Z
+// Ternary Operator: Conditional expression | 2026-09-08T10:08:55.542Z
