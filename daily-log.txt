@@ -374,3 +374,4 @@
 // IIFE: Immediately Invoked Function Expression | 2026-09-08T10:07:41.542Z
 // Callback Functions: Functions passed as arguments | 2026-09-08T10:07:42.542Z
 // Higher Order Functions: Functions that operate on functions | 2026-09-08T10:07:43.542Z
+// Currying: Transforming multi-argument functions | 2026-09-08T10:07:44.542Z
