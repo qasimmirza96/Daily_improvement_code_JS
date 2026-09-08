@@ -519,3 +519,4 @@
 // Object Methods: assign, keys, values, entries | 2026-09-08T10:10:06.542Z
 // Error Handling: try, catch, finally blocks | 2026-09-08T10:10:07.542Z
 // Strict Mode: Enforces stricter parsing and error handling | 2026-09-08T10:10:08.542Z
+// This Keyword: Context-dependent reference | 2026-09-08T10:10:09.542Z
