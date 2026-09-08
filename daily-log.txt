@@ -430,3 +430,4 @@
 // Throttling: Controlling function execution frequency | 2026-09-08T10:08:37.542Z
 // Event Delegation: Handling events on parent elements | 2026-09-08T10:08:38.542Z
 // DOM Manipulation: Modifying HTML structure | 2026-09-08T10:08:39.542Z
+// Local Storage: Browser data persistence | 2026-09-08T10:08:40.542Z
