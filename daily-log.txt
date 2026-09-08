@@ -367,3 +367,4 @@
 // Array Methods: map, filter, reduce, forEach | 2026-09-08T10:07:34.542Z
 // String Methods: split, slice, substring, includes | 2026-09-08T10:07:35.542Z
 // Object Methods: assign, keys, values, entries | 2026-09-08T10:07:36.542Z
+// Error Handling: try, catch, finally blocks | 2026-09-08T10:07:37.542Z
