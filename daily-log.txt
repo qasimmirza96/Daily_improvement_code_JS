@@ -406,3 +406,4 @@
 // Template Literals: Use backticks for string interpolation | 2026-09-08T10:08:13.542Z
 // Spread Operator: ...array expands elements | 2026-09-08T10:08:14.542Z
 // Async/Await: Cleaner syntax for promise-based code | 2026-09-08T10:08:15.542Z
+// Map and Set: New data structures in ES6 | 2026-09-08T10:08:16.542Z
