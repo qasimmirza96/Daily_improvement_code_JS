@@ -370,3 +370,4 @@
 // Error Handling: try, catch, finally blocks | 2026-09-08T10:07:37.542Z
 // Strict Mode: Enforces stricter parsing and error handling | 2026-09-08T10:07:38.542Z
 // This Keyword: Context-dependent reference | 2026-09-08T10:07:39.542Z
+// Call, Apply, Bind: Function context manipulation | 2026-09-08T10:07:40.542Z
