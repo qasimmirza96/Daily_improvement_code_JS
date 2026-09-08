@@ -514,3 +514,4 @@
 // Proxy: Intercept and customize object operations | 2026-09-08T10:10:01.542Z
 // Reflect API: Built-in object for interceptable operations | 2026-09-08T10:10:02.542Z
 // WeakMap and WeakSet: Garbage-collectable collections | 2026-09-08T10:10:03.542Z
+// Array Methods: map, filter, reduce, forEach | 2026-09-08T10:10:04.542Z
