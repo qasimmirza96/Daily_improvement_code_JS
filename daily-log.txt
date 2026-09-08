@@ -357,3 +357,4 @@
 // Spread Operator: ...array expands elements | 2026-09-08T10:07:24.542Z
 // Async/Await: Cleaner syntax for promise-based code | 2026-09-08T10:07:25.542Z
 // Map and Set: New data structures in ES6 | 2026-09-08T10:07:26.542Z
+// Modules: Import and export functionality | 2026-09-08T10:07:27.542Z
