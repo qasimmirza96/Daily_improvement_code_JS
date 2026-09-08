@@ -454,3 +454,4 @@
 // Arrow Functions: Shorter syntax, lexical this binding | 2026-09-08T10:09:01.542Z
 // Destructuring: Extract values from arrays/objects easily | 2026-09-08T10:09:02.542Z
 // Template Literals: Use backticks for string interpolation | 2026-09-08T10:09:03.542Z
+// Spread Operator: ...array expands elements | 2026-09-08T10:09:04.542Z
