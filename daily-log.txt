@@ -479,3 +479,4 @@
 // Debouncing: Limiting function execution rate | 2026-09-08T10:09:26.542Z
 // Throttling: Controlling function execution frequency | 2026-09-08T10:09:27.542Z
 // Event Delegation: Handling events on parent elements | 2026-09-08T10:09:28.542Z
+// DOM Manipulation: Modifying HTML structure | 2026-09-08T10:09:29.542Z
