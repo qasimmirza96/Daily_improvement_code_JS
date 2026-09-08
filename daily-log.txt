@@ -463,3 +463,4 @@
 // Symbols: Unique and immutable primitive values | 2026-09-08T10:09:10.542Z
 // Proxy: Intercept and customize object operations | 2026-09-08T10:09:11.542Z
 // Reflect API: Built-in object for interceptable operations | 2026-09-08T10:09:12.542Z
+// WeakMap and WeakSet: Garbage-collectable collections | 2026-09-08T10:09:13.542Z
