@@ -434,3 +434,4 @@
 // Session Storage: Temporary browser storage | 2026-09-08T10:08:41.542Z
 // Cookies: Small data stored in browser | 2026-09-08T10:08:42.542Z
 // Fetch API: Modern way to make HTTP requests | 2026-09-08T10:08:43.542Z
+// XMLHttpRequest: Traditional AJAX method | 2026-09-08T10:08:44.542Z
