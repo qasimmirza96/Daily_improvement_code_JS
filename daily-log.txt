@@ -398,3 +398,4 @@
 // Ternary Operator: Conditional expression | 2026-09-08T10:08:05.542Z
 // Hoisting: var declarations are moved to top of scope | 2026-09-08T10:08:06.542Z
 // Event Loop: Handles async operations in JavaScript | 2026-09-08T10:08:07.542Z
+// Closures: Inner functions access outer function variables | 2026-09-08T10:08:08.542Z
