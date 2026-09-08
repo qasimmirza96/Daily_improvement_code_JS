@@ -475,3 +475,4 @@
 // Callback Functions: Functions passed as arguments | 2026-09-08T10:09:22.542Z
 // Higher Order Functions: Functions that operate on functions | 2026-09-08T10:09:23.542Z
 // Currying: Transforming multi-argument functions | 2026-09-08T10:09:24.542Z
+// Memoization: Caching function results | 2026-09-08T10:09:25.542Z
